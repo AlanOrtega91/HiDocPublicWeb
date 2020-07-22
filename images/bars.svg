@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 39 30">
+    <defs>
+        <style>.cls-1{fill:none;stroke:#5a97c6;stroke-linecap:round;stroke-linejoin:round;stroke-width:4px;}</style>
+    </defs>
+    <title>bars</title>
+    <g id="Layer_2" data-name="Layer 2">
+        <g id="Capa_1" data-name="Capa 1">
+            <line class="cls-1" x1="2" y1="2" x2="37" y2="2"/>
+            <line class="cls-1" x1="2" y1="15" x2="37" y2="15"/>
+            <line class="cls-1" x1="2" y1="28" x2="37" y2="28"/>
+        </g>
+    </g>
+</svg>

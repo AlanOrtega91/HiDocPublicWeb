@@ -1,0 +1,683 @@
+.footer {
+    padding-top: 0rem;
+}
+
+.contact-us-wrapper {
+    padding-top: 90px;
+    padding-bottom: 50px;
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+.contact-form {
+    padding-top: 32px;
+}
+
+input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari */
+    color: #fff;
+}
+
+input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #fff;
+}
+
+input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #fff;
+}
+
+input:-moz-placeholder {
+    /* Firefox 18- */
+    color: #fff;
+}
+
+.contact-form .form-group input#email {
+    width: 100%;
+}
+
+
+
+
+.footer .navigation-wrapper .category {
+    margin-bottom: 1rem;
+    color: #fff;
+}
+
+
+
+.footer .navigation-wrapper .category ul {
+    padding: 0;
+    list-style: none;
+}
+
+
+
+.footer .navigation-wrapper .category ul li a:hover {
+    color: #000000;
+}
+
+.footer .certification {
+    display: inline;
+    margin: 0 auto;
+    text-align: left;
+    font-size: 0.7rem;
+    color: white;
+}
+
+
+
+
+
+.logos-wrapper {
+    display: flex;
+    align-content: space-between;
+    margin: 0 auto;
+    width: 600px;
+}
+
+.secretaria-logo,
+.cofepris-logo {
+    flex: 2;
+    margin: 0;
+}
+
+.nom-logo,
+.iso-logo {
+    flex: 1;
+    margin-left: 15px;
+}
+
+.bottom .bottom-footer_ {
+    display: flex;
+}
+
+@media screen and (min-width: 320px) {
+
+    .footer .category {
+        flex: 0 0 40%;
+        max-width: 40%;
+    }
+
+    .superEspacio{
+        height: 70px;
+    }
+
+    .contact-us-wrapper .title h3 {
+        font-size: 32px;
+        padding-bottom: 32px;
+    }
+
+    .contact-us-wrapper .title h4 {
+        color: #fff;
+        font-size: 14px;
+        padding-bottom: 16px;
+        font-family: Roboto;
+    }
+
+    .contact-form .form-group input {
+        font-family: inherit;
+    line-height: inherit;
+    width: 100%;
+    /* margin: 0; */
+    height: 34px;
+    /* padding: 1.3rem; */
+    /* padding-left: 2rem; */
+    color: white;
+    background-color: #8bb7d8;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    font-family: Roboto;
+    padding: 0px 16px;
+    }
+
+    .contact-form input.submit {
+        text-align: center;
+    right: 12px;
+    border-radius: 4px;
+    position: absolute;
+    float: right;
+    height: 28px;
+    margin-right: 6px;
+    /* padding: 7px 24px; */
+    bottom: 3px;
+    line-height: 0;
+    font-weight: bold;
+    background-color: rgb(172, 212, 247);;
+    width: 100px;
+    font-size: 12px;
+    font-family: Roboto;
+    width: 75px;
+    font-style: italic;
+    }
+
+    .navigation-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        /* margin-top: 4em; */
+        padding-right: 0;
+    }
+
+    .footer .navigation-wrapper .category .title {
+        padding-left: -12px;
+        font-size: 13px;
+        font-style: italic;
+        font-weight: bold;
+        border-bottom: solid 1px #c7d5dd;
+        /* margin-bottom: 2rem; */
+        padding-bottom: 21px;
+        margin-bottom: 14px;
+    }
+
+    .footer .navigation-wrapper .category ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 11px;
+        font-family: Roboto;
+
+    }
+
+    .footer .certification p {
+        margin: 0 auto;
+        font-size: 9.3px;
+        line-height: 20px;
+        margin-bottom: 30px;
+        text-align: left;
+        font-family: Roboto;
+        padding-left: 20px;
+        padding-right: 5px;
+        /* padding: 0px 30px; */
+    }
+
+
+    .footer .bottom {
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer .bottom .copyright {
+        text-align: center;
+        font-size: 9.3px;
+        margin-top: 0;
+        padding: 12px 0px 0px 12px;
+        font-family: Roboto;
+    }
+
+    .footer .contact-us-wrapper {
+        padding-bottom: 60px;
+    }
+
+    .bottom .hi-doc-logo {
+        width: 56px;
+        margin-right: 10px;
+    }
+
+    .bottom ul {
+        font-size: 9.3px;
+        padding: 10px 0px;
+    }
+
+    .certification div.logos-wrapper {
+        width: 275px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .bottom ul {
+        font-size: 9.3px;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (min-width: 425px) {
+    .certification div.logos-wrapper {
+        width: 320px;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer .bottom .copyright {
+        text-align: center;
+        font-size: 10px;
+        margin-top: 0;
+        padding: 12px 0px 0px 12px;
+        font-family: Roboto;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .footer .contact-us {
+        padding: 0px 10%;
+    }
+
+    .contact-us-wrapper .title h3 {
+        padding-bottom: 32px;
+    }
+
+    .contact-us-wrapper .title h4 {
+        color: #fff;
+        padding-bottom: 16px;
+        font-family: Roboto;
+    }
+
+    .contact-form .form-group input {
+        font-family: inherit;
+        /* line-height: inherit; */
+        width: 100%;
+        margin: 0;
+        height: 44px;
+        /* padding: 1.3rem; */
+        /* padding-left: 2rem; */
+        color: white;
+        background-color: #7cb1da;
+        border: none;
+        border-radius: 7px;
+        font-size: 16px;
+        font-family: Roboto;
+        padding: 0px 34px;
+        margin-bottom: 8px;
+    }
+
+    .contact-form input.submit {
+        text-align: center;
+        right: -0;
+        border-radius: 6px;
+        position: absolute;
+        float: right;
+        margin-right: 18px;
+        padding: 0px 4px;
+        bottom: 3px;
+        line-height: 0;
+        font-weight: bold;
+        background-color: rgb(172, 212, 247);
+        width: 100px;
+        font-size: 16.6px;
+        font-family: Roboto;
+        width: 110px;
+        height: 38px;
+        font-style: italic;
+    }
+
+    .footer .navigation-wrapper .category .title {
+        padding-left: -12px;
+        font-style: italic;
+        font-weight: bold;
+        border-bottom: solid 1px #c7d5dd;
+        /* margin-bottom: 2rem; */
+        padding-bottom: 21px;
+        margin-bottom: 14px;
+    }
+
+    .footer .navigation-wrapper .category ul li a {
+        text-decoration: none;
+        color: #fff;
+        font-family: Roboto;
+        line-height: 32px;
+    }
+
+    .footer .certification p {
+        margin: 0 ;
+        line-height: 28px;
+        margin-bottom: 30px;
+        text-align: left;
+        font-family: Roboto;
+
+    }
+
+    .footer .bottom {
+        flex-direction: row;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .footer .bottom .copyright {
+        text-align: center;
+        font-size: 12px;
+        margin-top: 0;
+        padding: 12px 5% 8px 0px;
+        white-space: nowrap;
+    }
+
+    .bottom .hi-doc-logo {
+        width: 58px;
+        /* margin-right: 10px;
+        margin-left: 190px; */
+    }
+
+
+
+    .certification div.logos-wrapper {
+        width: 400px;
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .bottom ul {
+        font-size: 14px;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .footer .category {
+        flex: 0 0 16%;
+        max-width: 16%;
+    }
+}
+
+/* @media screen and (min-width: 1600px) {
+    .bottom .bottom-footer_ {
+        padding: 0px 120px;
+    }
+} */
+
+@media screen and (max-width: 400px) {
+    .footer .bottom img.hi-doc-logo {
+        margin-right: 24px;
+        margin-left: 24px;
+    }
+
+    .footer .bottom div.copyright {
+        width: 70%;
+        padding-left: 0.5rem;
+        font-size: 12px;
+    }
+
+
+
+    .footer .bottom {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .social-network-wrapper a {
+        margin: 0 5px;
+    }
+
+    .contact-form .form-group {
+        margin-bottom: 0;
+    }
+
+
+
+    .contact-form input.submit {
+        position: absolute;
+        right: 12px;
+    }
+
+    .form-group div.bottom {
+        font-size: 0.6rem;
+    }
+
+    div.footer div.logos-wrapper {
+        padding: 2rem 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    div.footer .secretaria-logo,
+    .footer .cofepris-logo {
+        height: auto;
+    }
+
+    .footer .nom-logo,
+    .footer .iso-logo {
+        width: 3rem;
+        margin-left: 1rem;
+    }
+
+    .footer .bottom {
+        background-color: #fff;
+        padding: 0.5rem 0 1rem 0;
+    }
+
+
+    .bottom .hi-doc-logo {
+        width: 4rem;
+        position: relative;
+        bottom: 45%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer .bottom ul {
+        display: flex;
+        list-style: none;
+        /* font-size: 6px; */
+    }
+
+    .footer .bottom ul li {
+        border-right: solid 2px #215779;
+        margin-right: 0.3rem;
+        padding-right: 0.3rem;
+    }
+
+    .footer .bottom ul li:last-child {
+        border: none;
+        margin-right: 0;
+        padding-right: 0;
+    }
+
+    .contact-form div.grid-margin {
+        margin: 0;
+        padding: 0;
+    }
+
+    div.category:nth-child(odd) {
+        margin-right: 2em;
+    }
+
+    .social-network-wrapper {
+        text-align: center;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    div.whatsapp-wrapper {
+        text-align: center;
+        font-size: 16px;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    .superEspacio{
+        height: 170px;
+    }
+}
+
+
+@media screen and (max-width: 1899px) {
+    .certification .logos-wrapper {
+        margin-bottom: 3em;
+    }
+
+    .copyright {
+        font-size: 12px;
+        padding-top: 8px;
+        padding-bottom: 0px;
+        color: #133454;
+    }
+
+
+    .navigation-wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .bottom ul {
+
+        list-style: none;
+        display: flex;
+        color: #3e6696;
+    }
+
+    .bottom li {
+        margin-right: 10px;
+        border-right: solid 2px #3E6696;
+        padding-right: 10px;
+    }
+
+    .bottom li:last-child {
+        border: none;
+    }
+
+
+
+    .bottom .hi-doc-logo {
+        bottom: 0;
+    }
+
+    .whatsapp-wrapper,
+    .social-network-wrapper {
+        margin-top: 40px;
+        /* padding-left: 10%; */
+        color: white;
+        
+    }
+
+    .whatsapp-wrapper .whatsapp-text{
+        font-size: 16px;
+        margin: 0 0 0 5px ;
+        vertical-align: middle;
+    }
+
+    .whatsapp-wrapper {
+        text-align: right;
+        padding: 0 auto;
+        
+    }
+
+    .whatsapp-wrapper img {
+        width: 24px;
+    }
+
+    .social-network-wrapper a img {
+        width: 1.5em;
+        height: 1.5em;
+        margin: 0 5px;
+    }
+}
+
+@media screen and (min-device-width: 1900px) {
+    .st2 .col-lg-11 {
+        margin-top: 5rem;
+    }
+
+    .bottom {
+        padding: 0 10px;
+        background-color: white;
+        font-family: poppins-regular;
+        color: #3E6696;
+        font-size: 16px;
+    }
+
+    .bottom .copyright {
+    line-height: 45px;
+        vertical-align: middle;
+        padding-left: 12px;
+        padding-right: 12px;
+        font-size: 12px;
+    }
+
+    .bottom .hi-doc-logo {
+        width: 100px;
+    }
+
+    .bottom ul {
+        list-style: none;
+        display: flex;
+        padding-top: 30px;
+    }
+
+    .bottom li {
+        margin-right: 20px;
+        border-right: solid 2px #3E6696;
+        padding-right: 20px;
+    }
+
+    .bottom li:last-child {
+        border: none;
+    }
+
+    .whatsapp-wrapper {
+        text-align: end;
+        margin-bottom: 3em;
+        color: white;
+        font-size: 16px;
+        /* padding-right: 15%; */
+    }
+
+    .whatsapp-wrapper img {
+        width: 24px;
+    }
+
+    .social-network-wrapper {
+        margin-bottom: 3em;
+    }
+
+    .social-network-wrapper a img {
+        
+        margin: 0 0.2em;
+        height: 10px;
+    }
+}
+
+.logos-wrapper {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.logos-wrapper img {
+    display: block;
+    max-width: 75%;
+}
+
+.logos-wrapper .logo2 img {
+    display: block;
+    max-width: 50%;
+}
+
+.footer .bottom .terms-and-privacy ul {
+    margin: 0;
+}
+
+.social-network-wrapper2 a img{
+    height: 20px;
+    margin: 0 10px;
+}
+
+@media screen and (min-width: 768px) {
+
+    .superEspacio{
+        height: 105px;
+    }
+
+    .whatsapp-wrapper,
+    .social-network-wrapper {
+        margin-top: 25px;
+        /* padding-left: 10%; */
+        color: white;
+        
+    }
+}

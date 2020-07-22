@@ -1,0 +1,40 @@
+Alinear botones con menu - Listo
+Pegar a la derecha el menu
+Botones de iniciar prueba y ver video -> a la izquierda
+Cambiar icono hombre y mujer y amarillo (calendario inteligente)
+Footer - de certificación m
+
+Visualiza -> mas espacio entre la imagen y textos
+Certificación en tabletas se vea en 4
+
+---------------------------------->
+*General
+
+Super espacio ----> Listo
+Contacto igual que AI
+
+*Visualiza
+
+Cambiar imagenes   ----> Listo
+Color del hover    ----> Listo
+
+*Seguridad 
+
+Super espacio   ----> Listo
+
+*Nosotros
+
+Super espacio   ----> Listo
+
+*Soporte
+
+Cambiar colores azul a verde   -----> Listo
+alinear iconos
+
+*Planes
+
+---------------------------->
+Agregar testimoniales
+Linkedin
+Actualizar las anclas del footer
+agregar espacio despues de texto e imagenes 22px

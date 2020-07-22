@@ -1,0 +1,645 @@
+<!doctype html>
+
+<html lang="es-MX">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Hi Doc (México) - Planes</title>
+    <meta name="description" content="Consulta los precios de la herramienta integral de Hi Doc para médicos, que te ayudará a gestionar tu información, mejorar la relación con tus pacientes, ahorrar espacio y dinero">
+    <meta name="author" content="Hi Doc (México)">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/plans.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/gradient.css">
+    <link rel="stylesheet" href="css/odometer.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row nav-bar large">
+
+            <img src="images/home/hi-doc-logo.svg">
+
+            <div>
+                <ul class="links">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="expediente.html">Expediente clínico</a>
+                    </li>
+                    <!--<li>
+                    <a href="#">Clínicas</a>
+
+                </li>-->
+                    <li class="selected">
+                        <a href="#">Planes</a>
+
+                    </li>
+                    <li>
+                        <a href="seguridad.html">Seguridad</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="Support.html">Soporte</a>
+                    </li>
+                </ul>
+
+                <ul class="login" style="padding-left: 0px;">
+                    <li>
+                        <a href="https://medico.hidoc.com.mx/registro">Regístrate</a>
+                    </li>
+                    <li>
+                        <a href="https://medico.hidoc.com.mx">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row nav-bar small fix-top">
+            <img src="images/home/hi-doc-logo.svg" class="hi-doc-logo">
+
+            <div class="nav-menu">
+                <ul class="hidden links">
+                    <!-- <li class="register">
+                        <a href="https://medico.hidoc.com.mx/registro">Regístrate</a>
+                    </li>
+                    <li class="login">
+                        <a href="https://medico.hidoc.com.mx">Log in</a>
+                    </li> -->
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <!--<li>
+                <a href="#">Clínicas</a>
+
+            </li>-->
+                    <li>
+                        <a href="expediente.html">Expediente clínico</a>
+
+                    </li>
+                    <li>
+                        <a href="planes.html">Planes</a>
+
+                    </li>
+                    <li>
+                        <a href="seguridad.html">Seguridad</a>
+                    </li>
+                    <li>
+                        <a href="nosotros.html">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="Support.html">Soporte</a>
+                    </li>
+                    <li >
+                        <a href="https://medico.hidoc.com.mx" style="color: gray;">Log in / Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="intro-container">
+            <div class="row">
+                <div class="col-md col-xl-12">
+                    <h2>
+                        Planes y precios de Hi Doc®
+                    </h2>
+
+                    <div class="col intro-description">
+                        <div style="height: 10px;"></div>
+                        <p>
+                            Prueba las funciones del plan Plus por 14 días. No se necesita tarjeta de crédito.
+                        </p>
+                    </div>
+
+                    <!-- <button class="button">
+                        Iniciar prueba
+                    </button> -->
+                </div>
+                
+            </div>
+            
+        </div>
+        <div class="row price_method" style="display: flex; justify-content: center; align-items: center;">
+            <div class="pricing col-xl-9 col-lg-12 price_auto"
+                style="display: flex; justify-content: center; align-items: center;">
+                <div class="in-block">
+                    <h3 class="monthly pricing-item-color" name="Mensual">Mensual</h3>
+                </div>
+                <label class="switch">
+                    <input type="checkbox" class="checkbox">
+                    <span id="pricing-lapse" class="slider round"></span>
+                </label>
+                <div class="in-block">
+                    <h3 class="anual" name="Anual">Anual</h3>
+                </div>
+            </div>
+            <div class="currency-toggle mxn col-xl-3 col-lg-12 price_item">
+                <a href="#" class="selected mxn" data-currency="mxn">
+                    MXN
+                </a>
+                |
+                <a href="#" class="usd" data-currency="usd">USD</a>
+            </div>
+        </div>
+        <div id="precios" class="row">
+            <div class="plan basic">
+                <h5 class="title">Básico</h5>
+
+                <div class="avatar-wrapper">
+                    <img src="images/planes/basico.svg" class="plan-image">
+                </div>
+
+                <div class="price-wrapper">
+                    <p class="price yearly">
+                        Anual $<span class="amount odometer">0000</span>
+                    </p>
+
+                    <h5 class="price monthly" style="font-size: 35px;">
+                        $<span class="amount odometer">$499</span>
+                        <span class="currency" style="font-size: 20px;">MXN</span>
+                    </h5>
+
+
+                    <div class="space"></div>
+                    <p class="iva">
+                        incluye IVA/ mes facturado anualmente
+                    </p>
+
+                    <div class="button-wrapper">
+                        <button>Contratar</button>
+                    </div>
+                </div>
+                <div class="features-wrapper">
+                    <ul>
+                        <li>
+                            Expediente Clínico Electrónico certiﬁcado por SSA
+                        </li>
+                        <li>
+                            Agenda Electrónica Inteligente
+                        </li>
+                        <li>
+                            Recetas Médicas Digitales
+                        </li>
+                        <li>
+                            Administrador de estudios y anexo
+                        </li>
+                        <li>
+                            Creación de notas médicas (Rápida y SOAP)
+                        </li>
+                        <li>
+                            Actualizaciones ilimitadas
+                        </li>
+                        <li>
+                            Respaldo automático de la información
+                        </li>
+                        <li>
+                            Encriptación en la nube Rijndael
+                        </li>
+                        <li>
+                            Catálogos de medicamentos, diagnósticos y más…
+                        </li>
+                        <li>
+                            14 días gratis
+                        </li>
+                        <li>
+                            1 dispositivo conectado
+                        </li>
+                        <li>
+                            5 GB de almacenamiento en la Nube
+                        </li>
+                        <li>
+                            100% deducible de impuestos
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan plus">
+                <h5 class="title">Plus</h5>
+
+                <div class="avatar-wrapper">
+                    <img src="images/planes/plus.svg" class="plan-image">
+                </div>
+
+                <div class="price-wrapper">
+                    <p class="price yearly">
+                        Anual $<span class="amount odometer">000</span>
+                    </p>
+                    <h5 class="price monthly" style="color: white; font-size: 35px;">
+                        $<span class="amount odometer">699</span>
+                        <span class="currency" style="font-size: 20px;">MXN</span>
+                    </h5>
+
+                    <div class="space"></div>
+
+                    <p class="iva white" style="color: white;">
+                        incluye IVA/ mes facturado anualmente
+                    </p>
+
+                    <div class="button-wrapper">
+                        <button>Contratar</button>
+                    </div>
+                </div>
+                <div class="features-wrapper">
+                    <ul>
+                        <li>
+                            Todo lo del básico +
+                        </li>
+                        <li>
+                            Envia la(s) receta(s) al correo de tu paciente.
+                        </li>
+                        <li>
+                            Recetas médicas inteligentes
+                        </li>
+                        <li>
+                            Hi Doc para tu o tus asistentes
+                        </li>
+                        <li>
+                            50 GB de almacenamiento en la Nube
+                        </li>
+                        <li>
+                            Sincronización con Google Calendar
+                        </li>
+                        <li>
+                            App Móvil
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="plan clinic">
+                <h5 class="title">Clínicas</h5>
+
+                <div class="avatar-wrapper">
+                    <img src="images/planes/clinicas.svg" class="plan-image">
+                </div>
+
+                <div class="price-wrapper">
+                    <div class="header" style="position: absolute;">
+                        <p class="cotizar white" style="display: fixed; top: 0px;">REALIZA TU COTIZACIÓN</p>
+                    </div>
+                    <p class="price yearly">
+                        Anual $<span class="amount odometer">0000</span>
+                    </p>
+                    <h5 class="price monthly" style="color: white; font-size: 35px;">
+                        $<span class="amount odometer">449</span>
+                        <span class="currency" style="font-size: 20px;">MXN</span>
+                    </h5>
+
+
+                    <div class="row" style="display: flex; justify-content: center; align-items: center;">
+                        <div class="col-3" style="padding: 0px;">
+                            <span class="medic-left">
+                                1
+                                <br>
+                                médico
+                            </span>
+                            <br>
+
+                        </div>
+                        <div class="col-6 slider-area">
+                            <input type="range" class="form-control-range" id="amount-medics" min="1" max="21">
+                        </div>
+                        <div class="col-3" style="padding: 0px; color: white;"><span class="amount-medics-displayer">5</span><span
+                                class="medic-right"> </span>
+                            <span class="medic-right">
+                                <br>
+                                médicos
+                            </span>
+                        </div>
+                    </div>
+                    <p class="iva WrapSpec white" style="color: white;">
+                        incluye IVA/ mes facturado anualmente
+                    </p>
+
+                    <div class="button-wrapper WrapSpec">
+                        <button style="color:#067377">Próximamente</button>
+                    </div>
+                </div>
+                <div class="features-wrapper">
+                    <ul>
+                        <li>
+                            Todo lo del plus +
+                        </li>
+                        <li>
+                            Expediente único por paciente* certiﬁcado por SSA
+                        </li>
+                        <li>
+                            Hi Doc Console (Administrador)
+                        </li>
+                        <li>
+                            Tag the doc Envia la(s) receta(s) al correo de tu paciente.
+                        </li>
+                        <li>
+                            Soporte técnico personalizado
+                        </li>
+                        <li>
+                            Hi Doc para las Asistentes de la clínica
+                        </li>
+                        <li>
+                            500 GB de almacenamiento en la nube para la clínica
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div style="height:23px"></div>
+        <div id="almacenamiento" class="row justify-content-end" >
+            <img src="images/flower.svg" class="flower right">
+        </div>
+        <div style="height:23px" ></div>
+        <div class="storage-wrapper">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2"><h5>Almacenamiento</h5></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="100gb">
+                        <td>100GB</td>
+                        <td><span class="amount">$29</span> <span class="currency">MXN</span></td>
+                    </tr>
+                    <tr class="200gb">
+                        <td>200GB</td>
+                        <td><span class="amount">$49</span> <span class="currency">MXN</span></td>
+                    </tr>
+                    <tr class="500gb">
+                        <td>500GB</td>
+                        <td><span class="amount">$99</span> <span class="currency">MXN</span></td>
+                    </tr>
+                    <tr class="1tb">
+                        <td>1TB</td>
+                        <td><span class="amount">$139</span> <span class="currency">MXN</span></td>
+                    </tr>
+                    <tr class="1tb">
+                        <td>2TB</td>
+                        <td><span class="amount">$179</span> <span class="currency">MXN</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <p>
+                Próximamente
+                <br>
+                El almacenamiento escogido se carga automáticamente a tu tarjeta de forma mensual.
+            </p>
+        </div>
+        <div class="superEspacio"></div> 
+
+        <div class="footer">
+            <div class="st2">
+                <div class="contact-us-wrapper">
+                    <div class="row justify-content-center">
+                        <div class="col text-center title">
+                            <h3 class="title white white">Contacto</h3>
+                            <h4>Queremos escucharte</h4>
+                            <h4>Si tienes alguna duda ponte en contacto con nosotros</h4>
+                        </div>
+                    </div>
+
+                    <div class="row justify-content-center">
+                        <div class="col-xl-6 col-12 grid-margin">
+                            <div class="contact-form">
+                                <form action="" method="POST" class="contact-us">
+
+                                    <div class="form-group row">
+                                        <div class="col-xl-6 col-12 mb-2">
+                                            <label for="name"></label>
+                                            <input type="text" name="name" id="name" required placeholder="Nombre">
+                                        </div>
+
+                                        <div class="col-xl-6 mb-2">
+                                            <label for="phone"></label>
+                                            <input type="text" name="phone" id="phone" required
+                                                placeholder="Teléfono">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <div class="col-12 mb-2">
+                                            <label for="content"></label>
+                                            <input type="text" name="content" id="content" required
+                                                placeholder="Escríbenos">
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group row">
+                                        <div class="col-12 mb-2" style="position: relative;">
+                                            <label for="email"></label>
+                                            <input type="text" name="email" id="email" required
+                                                placeholder="Correo">
+                                            <input type="submit" value="Enviar" class="submit">
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-center whatsapp-wrapper">
+                        <a href="https://wa.me/525535154477"  target="_blank"><img src="images/footer/social/whatsapp.svg"></a>
+                        <a href="https://wa.me/525535154477"  target="_blank" style="color:white" ><span class="whatsapp-text">(55) 3515 4477</span></a>
+                    </div>
+                </div>
+                <div class="col-lg-11 ml-lg-5">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-8 col-lg-12 col-sm-11">
+
+                            <div class="col-12 navigation-wrapper">
+                                <div class="category col-xl-2 col-lg-6">
+                                    <h3 class="title white">Home</h3>
+
+                                    <ul>
+                                        <li>
+                                            <a href="index.html#intro2">Características</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#beneficios">Beneficios</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#ecologia">Ecólogico</a>
+                                        </li>
+                                        <li>
+                                            <a href="planes.html">Planes</a>
+                                        </li>
+                                        <li>
+                                            <a href="index.html#testimonios">Testimonios</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="category col-xl-2 col-lg-6">
+                                    <h3 class="title white">Expediente</h3>
+
+                                    <ul>
+                                        <li>
+                                            <a href="expediente.html#visualiza">Visualiza</a>
+                                        </li>
+                                        <li>
+                                            <a href="expediente.html#notas-medicas">Notas médicas</a>
+                                        </li>
+                                        <li>
+                                            <a href="expediente.html#recetas-medicas-digitales">Recetas médicas
+                                                digitales</a>
+                                        </li>
+                                        <li>
+                                            <a href="expediente.html#certificacion">Certificación</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <!-- <div class="category col-xl-2 col-lg-6">
+                                    <h3 class="title white">Clínicas</h3>
+
+                                    <ul>
+                                        <li>
+                                            <a href="expediente.html">Expediente único</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://medico.hidoc.com.mx/registro">Hi Doc Console</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tag the Doc</a>
+                                        </li>
+                                        <li>
+                                            <a href="planes.html">Planes</a>
+                                        </li>
+                                    </ul>
+                                </div> -->
+
+                                <div class="category col-xl-2 col-lg-6">
+                                    <h3 class="title white">Planes</h3>
+
+                                    <ul>
+                                        <li>
+                                            <a href="planes.html#precios">Básico</a>
+                                        </li>
+                                        <li>
+                                            <a href="planes.html#precios">Plus</a>
+                                        </li>
+                                        <li>
+                                            <a href="planes.html#precios">Clínicas</a>
+                                        </li>
+                                        <li>
+                                            <a href="planes.html#almacenamiento">Almacenamiento</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                                <div class="category col-xl-2 col-lg-6">
+                                    <h3 class="title white">Seguridad</h3>
+
+                                    <ul>
+                                        <li>
+                                            <a href="seguridad.html#nube">Nube</a>
+                                        </li>
+                                        <li>
+                                            <a href="seguridad.html#nube">Encriptado</a>
+                                        </li>
+                                        <li>
+                                            <a href="seguridad.html#nube">Contraseña</a>
+                                        </li>
+                                        <!-- <li>
+                                            <a href="#">Fiel</a>
+                                        </li> -->
+                                    </ul>
+                                </div>
+
+                                <div class="category col-xl-2 col-lg-6">
+                                    <h3 class="title white">Nosotros</h3>
+
+                                    <ul>
+                                        <li>
+                                            <a href="nosotros.html#empresa">Empresa</a>
+                                        </li>
+                                        <li>
+                                            <a href="nosotros.html#consejo-medico">Consejo Medico</a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        
+
+
+                        <div class="col-xl-4 col-lg-12 col-sm-11">
+                            <div class="col-12 social-network-wrapper2">
+                                <a href="https://www.facebook.com/hidocsolutions/" target="_blank"><img src="images/footer/social/facebook.svg"></a>
+                                <a href="https://www.instagram.com/hidocsolutions/?hl=es-la" target="_blank"><img src="images/footer/social/instagram.svg"></a>
+                                <a href="https://twitter.com/hidocmx" target="_blank"><img src="images/footer/social/tweeter.svg" height="100px"></a>
+                                <a href="https://www.linkedin.com/organization-guest/company/hi-doc-?challengeId=AQFQfMqSW5xDIQAAAXNdIRb3jW1kugi4eJruyjHqfcSdQ6yKj-HT0PLCoY4qQrPUazHMngFbTGsTr2V8lRpwY5ZYbF5AC89rIA&submissionId=5040f61f-ca8f-2216-6f45-884afa734908" target="_blank"><img src="images/footer/social/linkedin.svg" ></a>
+                            </div>
+
+                            <div class="col-12 certification">
+                                <p>
+                                    Hi Doc® está certificado por la Secretaría de Salud ante la NOM-024-003-2012,
+                                    aprobado
+                                    por
+                                    COFEPRIS
+                                    y
+                                    cumple con los estándares de seguridad de la ISO 27000.
+                                </p>
+
+                                <div class="logos-wrapper">
+                                    <div class="secretaria-logo"><a href="http://www.dgis.salud.gob.mx/intercambio/certificados/DGIS-CER-P-004-2019-08_gobmx.html" target="_blank"><img src="images/footer/logos/secretaria-de-salud-logo.svg" /></a></div>
+                                    <div class="cofepris-logo"><img src="images/footer/logos/cofepris-logo.svg" /></div>
+                                    <div class="logo2 nom-logo"><img src="images/footer/logos/nom-logo.svg" /></div>
+                                    <div class="logo2 iso-logo"><img src="images/footer/logos/iso-logo.svg" /></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 bottom">
+                    <div class="bottom-footer_">
+                        <p class="copyright">
+                            Copyright © 2016 - 2020 by Hi Doc Solutions S.A. de C.V.  Todos los derechos reservados.
+                        </p>
+                        
+                    </div>
+                    <img src="images/home/hi-doc-logo.svg" class="hi-doc-logo">
+
+                    <div class="terms-and-privacy bottom-footer_">
+                        <ul>
+                            <li>
+                                <a href="terminos.html">Términos de Uso</a>
+                            </li>
+                            <li>
+                                <a href="politicas.html">Politica de privacidad</a>
+                            </li>
+                            <li>
+                                <a href="oid.html#intro">OID</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="js/navbar.js"></script>
+    <script src="./js/planes.js"></script>
+    <script src="./js/odometer.js"></script>
+</body>
+
+</html>

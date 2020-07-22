@@ -1,0 +1,528 @@
+.record-perk {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.record-perk .perk-icon-background {
+    fill: #D2E2F4;
+}
+
+.record-perk-image-wrapper {
+    width: 10%;
+}
+
+.record-perk:hover .perk-icon-background {
+    fill: #eab945;
+}
+
+.record-perk-image-wrapper img {
+    width: 60px;
+}
+
+.record-perk-text-wrapper {
+    margin-left: 60px;
+}
+
+.medical-note-image-wrapper img, .recipe-perk-image-wrapper img {
+    width: 60px;
+}
+
+.perk-card {
+    width: 350px;
+    height: 420px;
+    background-repeat: no-repeat;
+}
+
+.perk-card-text-wrapper {
+    height: 80%;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 90px;
+    position: relative;
+    right: 15px;
+}
+
+.perk-card-title {
+    font-size: 27px;
+    text-align: center;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 40px;
+    margin-top: 10px;
+    color: #133454;
+    width: 115%;
+    position: relative;
+    right: 17px;
+}
+
+.perk-card:first-child .perk-card-title {
+    right: 26px;
+}
+
+.clinic-summary {
+    background-image: url("../images/expediente/perk-card/book-card.svg");
+}
+
+.external-consulting {
+    background-image: url("../images/expediente/perk-card/shield-card.svg");
+}
+
+.digital-recipes {
+    background-image: url("../images/expediente/perk-card/diploma-card.svg");
+}
+
+.oid {
+    background-image: url("../images/expediente/perk-card/cloud-card.svg");
+}
+
+.record-perk.historial-clinico:hover .visualiza-image.historial-clinico {
+    display: block;
+}
+
+.visualiza-image {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.exp_img {
+    width: 100%;
+}
+@media screen and (max-width: 450px) {
+    .medical-recipes-wrapper {
+        margin-top: 4em;
+    }
+
+    .medical-recipes-title {
+        font-size: 1.3em;
+        padding: 3em 0;
+    }
+
+    .recipe-perks {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5em;
+        margin-bottom: 3em;
+    }
+
+    .recipe-perk {
+        width: 340px;
+        display: flex;
+        margin-bottom: 3em;
+    }
+
+    .recipe-perk:nth-child(even) {
+        margin-right: 30px;
+    }
+
+    .recipe-perk .text-wrapper {
+        padding-left: 0.5em;
+    }
+
+    .recipe-perk-title {
+        font-size: 1.5em;
+    }
+
+    .recipe-perk-description {
+        font-size: 0.9em;
+        color: #ffffff;
+    }
+
+    .certifications-wrapper .title {
+        text-align: center;
+        width: 100%;
+      
+    }
+
+    .certifications {
+        text-align: center;
+        margin-bottom: 5em;
+    }
+
+    .perk-card {
+        width: 290px;
+    }
+
+    .perk-card-text-wrapper {
+        right: 0;
+    }
+
+    .certification-note {
+        line-height: 1.5em;
+        margin-top: 5em;
+        text-align: center;
+    }
+
+    .certification-foot-note {
+        font-size: 12px;
+        text-align: center;
+        margin-top: 4em;
+    }
+}
+
+@media screen and (min-device-width: 750px) {
+    .intro-container {
+        padding-bottom: 5em;
+    }
+
+    .intro-records-title {
+        margin-bottom: 0.5em;
+        margin-top: 3em;
+        
+    }
+
+    .intro-records-subtitle {
+        margin-bottom: 5em;
+    }
+
+    .nurse-monitor {
+        width: 70%;
+    }
+
+    .display-wrapper {
+        margin-top: 5em;
+    }
+
+    .record-perks {
+        margin-top: 1em;
+    }
+
+    .record-perk {
+        margin-bottom: 5rem;
+    }
+
+    .record-perk .perk-card-text-wrapper {
+        margin-left: 3rem;
+    }
+
+    .record-perk-title {
+        font-size: 1.2rem;
+    }
+
+    .record-perk-description {
+        font-size: 1rem;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+    .medical-notes-wrapper .flower {
+        width: 7em;
+        float: right;
+        bottom: 5em;
+        position: absolute;
+        right: 0;
+    }
+
+    .flex-list-wrapper {
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 0;
+    }
+
+    .flex-card {
+        width: 350px;
+    }
+
+    .medical-note-title {
+        font-size: 1.3em;
+    }
+
+    .medic-at-desktop {
+        text-align: center;
+        width: 70%;
+    }
+
+    .row.visualiza-image {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .all-in-one-screen-wrapper .text-wrapper {
+        text-align: center;
+    }
+
+    .all-in-one-screen-description {
+        font-size: 0.8em;
+        margin: 5em 3em;
+    }
+
+    .medical-recipes-wrapper {
+        padding-top: 10em;
+    }
+
+    .medical-recipes-title {
+        margin-bottom: 3em;
+    }
+
+    .recipe-perks {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 5em;
+        margin-bottom: 3em;
+    }
+
+    .recipe-perk {
+        width: 340px;
+        display: flex;
+        margin-bottom: 3em;
+    }
+
+    .recipe-perk:nth-child(even) {
+        margin-right: 30px;
+    }
+
+    .recipe-perk .text-wrapper {
+        padding-left: 0.5em;
+    }
+
+    .recipe-perk-title {
+        font-size: 1.5em;
+    }
+
+    .recipe-perk-description {
+        font-size: 0.9em;
+        color: #ffffff;
+    }
+
+    .certifications-wrapper {
+        padding-top: 100px;
+        display: block;
+        text-align: center;
+    }
+
+    
+    .perk-card {
+        width: 320px;
+        margin-bottom: 4em;
+    }
+
+    .perk-card:nth-child(even) {
+        margin-left: 30px;
+    }
+
+    .perk-card-text-wrapper {
+        width: 85%;
+        left: 11px;
+    }
+
+    .perk-card-title {
+        margin-bottom: 1.2em;
+        position: relative;
+        right: 30px;
+    }
+
+    .perk-card:first-child .perk-card-title {
+        right: 40px;
+    }
+
+    .perk-card-description {
+        font-size: 0.9em;
+    }
+
+    .certification-note {
+        font-size: 1em;
+        text-align: center;
+        margin-bottom: 6em;
+    }
+
+    .certification-foot-note {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+   
+
+    
+    .intro-container p {
+        text-align: center;
+    }
+
+    .intro-recipe.nurse-monitor {
+        width: 780px;
+        padding-top: 0;
+    }
+
+    .medic-at-desktop {
+        text-align: center;
+    }
+
+    .medic-at-desktop img {
+        width: 600px;
+    }
+
+    .screen-capture img {
+        width: 1400px;
+    }
+
+    .medical-recipes-wrapper {
+        color: #fff;
+        padding-bottom: 200px;
+    }
+
+    .medical-recipes-title {
+        margin: 200px 0 100px 0;
+    }
+
+    .all-in-one-screen-wrapper {
+        padding-bottom: 50px;
+    }
+
+    .all-in-one-screen-wrapper .text-wrapper {
+        text-align: center;
+    }
+
+    .registered {
+        font-size: 30px;
+        position: relative;
+        bottom: 20px;
+    }
+
+    .all-in-one-screen-description {
+        margin-bottom: 100px;
+        margin-top: 50px;
+    }
+
+    .recipe-perks {
+        margin-left: 50px;
+        display: block;
+        margin-top: 0;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 45px;
+        width: 70%;
+    }
+
+    .recipe-perk-description {
+        margin-left: 0;
+        font-size: 0.5em;
+    }
+
+    .certifications-wrapper {
+        padding-top: 100px;
+        display: block;
+        text-align: center;
+    }
+
+    
+    .perk-card {
+        width: 350px;
+        height: 420px;
+        background-repeat: no-repeat;
+    }
+
+    .perk-card-text-wrapper {
+        height: 80%;
+        width: 75%;
+        margin: 0 auto;
+        padding-top: 90px;
+        position: relative;
+        right: 15px;
+    }
+
+    .perk-card-title {
+        font-size: 27px;
+        text-align: center;
+        font-weight: 400;
+        line-height: 30px;
+        margin-bottom: 40px;
+        margin-top: 10px;
+        color: #133454;
+        position: relative;
+    }
+
+    .certification-note {
+        font-size: 18px;
+        text-align: center;
+        width: 48%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
+    .certification-foot-note {
+        margin-left: 100px;
+        font-size: 12px;
+        text-align: left;
+    }
+
+    .record-perks {
+        margin-top: 2.5em;
+    }
+
+    .record-perk {
+        margin-bottom: 40px;
+    }
+
+    .record-perk-image-wrapper {
+        margin-top: 20px;
+    }
+
+    .record-perk-title.title {
+        font-size: 0.6em;
+        margin-bottom: 5px;
+    }
+
+    .record-perk-text-wrapper {
+        width: 65%;
+    }
+
+    .record-perk-description {
+        font-size: 0.9rem;
+    }
+
+    .perk-icon {
+        width: 60px;
+        height: 60px;
+        margin: 0 30px;
+    }
+
+    #notas-medicas, #recetas-medicas-digitales {
+        font-size: 1.2em;
+    }
+
+    .title.medical-note-title {
+        font-size: 1.1em;
+    }
+
+    .medical-note-description {
+        font-size: 0.6em
+    }
+
+    .perk-card-text-wrapper {
+        left: 0
+    }
+
+    .perk-card-description {
+        font-size: 0.5em;
+        margin-right: 2em;
+        line-height: 24px;
+    }
+}
+
+.description-wrapper {
+    margin-top: 6rem !important;
+}
+
+.title {
+    font-size: 2.4rem;
+}
+.perk-icon {
+    width: 10%;
+    min-width: 58px;
+}
+
+.record-perks {
+    margin-top: 2em;
+}
+.justify-content-center {
+    padding-left: 10px;
+}
+
+.title {
+    font-size: 2.5rem;
+}

@@ -1,0 +1,943 @@
+<!doctype html>
+
+<html lang="es-MX">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Hi Doc (México)</title>
+    <meta name="description" content="Hi Doc (México)">
+    <meta name="author" content="Hi Doc (México)">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/homesupport.css">
+    <link rel="stylesheet" href="css/support.css">
+    <link rel="stylesheet" href="css/supportlarge.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css"
+        integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/gradient.css">
+</head>
+
+<body>
+    <div>
+        <div class="container-fluid">
+            <div class="row nav-bar large">
+
+                <img src="images/home/hi-doc-logo.svg">
+
+                <div>
+                    <ul class="links">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="expediente.html">Expediente clínico</a>
+                        </li>
+                        <!--<li>
+                        <a href="#">Clínicas</a>
+    
+                    </li>-->
+                        <li>
+                            <a href="planes.html">Planes</a>
+    
+                        </li>
+                        <li>
+                            <a href="seguridad.html">Seguridad</a>
+                        </li>
+                        <li>
+                            <a href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="selected">
+                            <a href="#">Soporte</a>
+                        </li>
+                    </ul>
+    
+                    <ul class="login" style="padding-left: 0px;">
+                        <li>
+                            <a href="https://medico.hidoc.com.mx/registro">Regístrate</a>
+                        </li>
+                        <li>
+                            <a href="https://medico.hidoc.com.mx">Log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row nav-bar small fix-top">
+                <img src="images/home/hi-doc-logo.svg" class="hi-doc-logo">
+    
+                <div class="nav-menu">
+                    <ul class="hidden links">
+                        <!-- <li class="register">
+                            <a href="https://medico.hidoc.com.mx/registro">Regístrate</a>
+                        </li>
+                        <li class="login">
+                            <a href="https://medico.hidoc.com.mx">Log in</a>
+                        </li> -->
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <!--<li>
+                    <a href="#">Clínicas</a>
+    
+                </li>-->
+                        <li>
+                            <a href="expediente.html">Expediente clínico</a>
+    
+                        </li>
+                        <li>
+                            <a href="planes.html">Planes</a>
+    
+                        </li>
+                        <li>
+                            <a href="seguridad.html">Seguridad</a>
+                        </li>
+                        <li>
+                            <a href="nosotros.html">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="Support.html">Soporte</a>
+                        </li>
+                        <li >
+                            <a href="https://medico.hidoc.com.mx" style="color: gray;">Log in / Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="intro-container page-logo">
+                <div class="title-wrapper" style="position: fixed; width: 100%; z-index: 90;">
+
+                    <h2 class="logo-title">
+                        <span style="flex: 1; font-size: 24px;">Soporte Hi Doc</span><a href="#home" id = "homebtn" ><i class="fas fa-home"
+                                style="color: white; margin-right: 20px;  font-size: 20px; vertical-align:super;"></i></a>
+                        <span><a id="arrow" data-toggle="collapse" href="#collapse1" ><i class="fas fa-chevron-down"
+                                    style="color: white; height: 10px; font-size: 20px; vertical-align:super; padding-bottom: 20px;"></i></a></span>
+                    </h2>
+
+
+                    <div class="panel-group" >
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><a href="#expedientes">EXPEDIENTES FÍSICOS</a></li>
+                                    <li class="list-group-item"><a href="#pacientes">CREA TU PACIENTE</a></li>
+                                    <li class="list-group-item"><a href="#antecedentes">ANTECEDENTES</a></li>
+                                    <li class="list-group-item"><a href="#hoja2">HOJA FRONTAL</a></li>
+                                    <li class="list-group-item"><a href="#notas">Notas médicas</a></li>
+                                    <li class="list-group-item"><a href="#estudios">Estudios y anexos</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row intro-container support" id="home">
+                    <div class="col-xl-8 description-left">
+                        <h2 id="intro" class="left-title-intro">
+                            Cómo empezar
+                        </h2>
+                        <h3 class="left-description-intro">Bienvenido a Hi Doc. Ya diste el primer paso para la
+                            nueva era digital médica. Consulta cómo empezar a utilizar las herramientas que te
+                            brinde el sistema, sus diferentes métodos de uso y otros beneficios
+                        </h3>
+                    </div>
+                    <div class="col-xl-4 description-right">
+                        <h3 class="right-title-intro">Escoger tema:</h3>
+                        <ul class="right-list-intro">
+                            <li><a href="#expedientes">Expedientes físicos</a></li>
+                            <li><a href="#pacientes">Crea tu paciente</a></li>
+                            <li><a href="#antecedentes">Antecedentes</a></li>
+                            <li><a href="#hoja">Hoja frontal</a></li>
+                            <li><a href="#notas">Notas médicas</a></li>
+                            <li><a href="#estudios">Estudios y anexos</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div id="expedientes"></div>
+                <div class="separator">
+
+                </div>
+                <div class="row support-content">
+                    <div class="col-xl-5 col-lg-12 description-left">
+                        <div class="asd">
+                            <h2 class="left-title">
+                                Expedientes físicos
+                            </h2>
+                            <h2 class="plus-icon-wrapper"><a data-toggle="collapse" data-target="#" id="btn1"><i
+                                        class="fa fa-plus plus-icon" style="color: #133454;"></i></a></h2>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-7 col-lg-12 description-right">
+                        <div id="collap1">
+                            <h3 class="right-title">Sube tus expedientes físicos</h3>
+                            <p class="right-description">Con Hi Doc es muy fácil archivar todo lo físico. No tienes
+                                que
+                                hacerlo antes de empezar, puedes hacer el proceso conforme tus
+                                pacientes llegan a consulta, puedes apoyarte en tu <a href="#"
+                                    class="blue-no-line">asistente.</a>
+                                <br>
+                                Lo primero que tienes que hacer es <a href="#" class="blue-no-line">crear tu
+                                    paciente</a> desde la sección pacientes.</p>
+                            <br>
+
+                            <div>
+                                <h4 class="right-subtitle">
+                                    Escanea el expediente
+                                </h4>
+                                <ul class="supportul no-padding-top">
+                                    <li>1.- Busca el expediente en físico.</li>
+                                    <li>2.- Escanéalo en tu escaner, impresora o tómale foto desde tu celular.</li>
+                                    <li>3.- Tu escaner puede tener la opción de guardarlo en tu computadora, selecciona
+                                        dónde quieres guardarlo.</li>
+                                    <li>4.- Para guardar da click en el botón <b>guardar.</b></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4 class="right-subtitle">
+                                    Sube el archivo al expediente
+                                </h4>
+                                <ul class="right-list no-padding-top">
+                                    <li>1.- Ve a tu paciente creado.</li>
+                                    <li>2.- Haz click en <a href="#" class="blue-no-line">estudios y anexos</a></li>
+                                    <li>3.- Haz click en la nube.<i class="fas fa-cloud-upload-alt"
+                                            style="color: #0073CE;"></i></li>
+                                    <li>4.- Selecciona el archivo escaneado</li>
+                                    <li>5.- Tu expediente físico ya está en el expediente digital de tu paciente.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div ></div>
+                <div class="separator" id="pacientes">
+
+                </div>
+                <div class="row support-content" >
+                    <div class="col-xl-5 col-lg-12 description-left">
+                        <div class="asd">
+                            <h2 class="left-title">
+                                Pacientes
+                            </h2>
+                            <h2 class="plus-icon-wrapper"><a data-toggle="collapse" data-target="#" id="btn2"><i
+                                        class="fa fa-plus fa-minus plus-icon" style="color: #133454;"></i></a></h2>
+                        </div>
+
+                    </div>
+                    <div class="col-xl-7 col-lg-12 description-right">
+                        <div id="collap2">
+                            <div>
+                                <h3 class="right-title">Crea tu paciente</h3>
+                                <p class="right-description">Al crear tu cuenta, el sistema te guiará a la sección de tu
+                                    cartera de pacientes. Aparecerá una pantalla en blanco con un botón que
+                                    dice <b>“+ Nuevo paciente”</b> en la parte superior izquierda coloreado en azul
+                                    claro.
+                                    Para crearlo, da click en ese botón, llena los datos que te pide Hi Doc y da click
+                                    en
+                                    <b>guardar.</b>
+                                    Todos los pacientes son descargables así cómo cualqueir archivo que subas al
+                                    sistema.
+                                    <br><br>
+                                    Hi Doc los <a href="#" class="blue-no-line">resguarda</a> y encripta la información
+                                    de
+                                    tus pacientes para que esté segura.
+                                </p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="antecedentes"></div>
+                <div class="separator">
+
+                </div>
+
+                <div class="row support-content">
+                    <div class="col-xl-5 col-lg-12 description-left">
+                        <div class="asd">
+                            <h2 class="left-title">
+                                Antecedentes
+                            </h2>
+                            <h2 class="plus-icon-wrapper"><a data-toggle="collapse" data-target="#" id="btn3"><i
+                                        class="fa fa-plus plus-icon" style="color: #133454;"></i></a></h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-12 description-right">
+                        <div id="collap3">
+                            <div>
+                                <h3 class="right-title">Gestiona sus antecedentes</h3>
+                                <p class="right-description">Dentro del expediente Hi Doc de tu paciente, podrás ver 5
+                                    pestañas debajo de su nombre y foto:</p>
+                            </div>
+                            <div>
+                                <ul class="right-list no-padding-top colored">
+                                    <li><a href="#">- Hoja Frontal</a></li>
+                                    <li><a href="#">- Ficha de Identificación</a></li>
+                                    <li><a href="#">- <b>Antecedentes</b></a></li>
+                                    <li><a href="#">- Cartilla de Vacunación</a></li>
+                                    <li><a href="#">- Estudios y Anexos</a></li>
+                                </ul>
+                                <p class="right-description">Para registrar algún antecedente de tu paciente, ve a la
+                                    pestaña de antecedentes. De lado izquierdo, verá
+                                    de antecedentes. Da click en la categoría que consideres.
+                                    Hi Doc, en algunos antecedentes te brinda 2 formas de registrarlos, en formato libre
+                                    y/o
+                                    estructuradas.</p>
+                            </div>
+                            <div>
+                                <h4 class="right-subtitle">
+                                    Estructurada
+                                </h4>
+                                <p class="right-description">Es la primer forma de registrar sus datos</p>
+                                <ul class="right-list no-padding-top">
+                                    <li>1.- Para empezar, da click en el botón de AGREGAR.</li>
+                                    <li>2.- Llena la información.</li>
+                                    <li>3.- Al terminar de llenarla, da click en la palomita verde<i class="fa fa-check"
+                                            style="color: lightgreen;"></i>para guardar o el tache <i
+                                            class="fas fa-times" style="color: red;"></i>
+                                        si deseas cancelar.</li>
+                                </ul>
+                                <p class="right-description">El sistema no te permite agregar otro antecedente al menos
+                                    que
+                                    le des palomita para guardar.
+                                    Para <b>agregar otro antecedente</b>, da click en el + ubicado a lado del título (no
+                                    aparecerá
+                                    si no has hecho la acción pasada) y repite el
+                                    proceso pasado.
+                                    Para <b>editar</b>, una vez confirmado el antecedente te aparecrá un ícono en forma
+                                    de
+                                    bloc de
+                                    notas <i class="far fa-edit" style="color: lightblue;"></i>. Da click en él y se
+                                    abrirá
+                                    para
+                                    que puedas modificar la información y/o agregar notas u observaciones.
+                                    Para <b>borrar</b> da click en ícono que aparece en forma guión rojo . <i
+                                        class="fas fa-minus" style="color: red;"></i> El sistema te
+                                    preguntará
+                                    si estás seguro eliminar esa entrada,
+                                    escoge la opción que necesites.</p>
+                                <h4 class="right-subtitle">
+                                    Libre
+                                </h4>
+                                <p class="right-description">Los antecedentes que tienen esta función son a nivel
+                                    general:
+                                </p>
+                                <ul class="right-list no-padding-top">
+                                    <li>- Heredo-familiares</li>
+                                    <li>- No patológicos</li>
+                                    <li>- Patológicos (Padecimientos, Quirúrgicos y Androgénicos o Ginecoobstétricos.
+                                    </li>
+                                </ul>
+                                <p class="right-description">En esta sección puedes escribir libremente cualquier
+                                    antecedente, anotación, nota, observación del antecedente en el que estés.
+                                    Para <b>guardar</b> solo da click afuera del campo y el antecedente estará
+                                    registrado.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="hoja2"></div>
+                <div class="separator">
+
+                </div>
+
+                <div class="row support-content" >
+                    <div class="col-xl-5 col-lg-12 description-left" >
+                        <div class="asd">
+                            <h2 class="left-title">
+                                Hoja frontal
+                            </h2>
+                            <h2 class="plus-icon-wrapper"><a data-toggle="collapse" data-target="#" id="btn4"><i
+                                        class="fa fa-plus plus-icon" style="color: #133454;"></i></a></h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-12 description-right">
+                        <div id="collap4">
+                            <div>
+                                <p class="right-description" style="padding-top: 0px;">Hi Doc facilitó el acceso a las notas médicas en hoja
+                                    frontal.
+                                    Al principio, cuando no existen notas médicas, verás esta sección en
+                                    blanco con una leyenda que dice “Sin consultas”. Conforme vayas registrando las <a
+                                        href="#" class="blue-no-line"> notas
+                                        médicas</a>, te aparecerá una tabla con él o
+                                    los diagnósticos del paciente seguido de la fecha y al final de la fila aparecerá un
+                                    botón <span class="ver-nota" >VER NOTA</span> para llevarte a la nota médica
+                                    que soporta dicho diagnóstico de lado derecho, en la sección de notas médicas.</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div id="notas"></div>
+                <div class="separator"></div>
+
+                <div class="row support-content">
+                    <div class="col-xl-5 col-lg-12 description-left">
+                        <div class="asd">
+                            <h2 class="left-title">
+                                Notas médicas
+                            </h2>
+                            <h2 class="plus-icon-wrapper"><a data-toggle="collapse" data-target="#" id="btn5"><i
+                                        class="fa fa-plus plus-icon" style="color: #133454;"></i></a></h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-12 description-right">
+                        <div id="collap5">
+                            <div>
+                                <h3 class="right-title">Tipos de notas médicas</h3>
+                                <p class="right-description">Hi Doc te brinda las herramientas para que puedas registrar
+                                    de
+                                    forma ordenada las notas médicas. Hay 2 opciones para hacerlo:
+                                    la rápida y la SOAP (Subjetivo, Objetivo, Análisis y Plan). Ambas cuentan con la
+                                    opción
+                                    de crear tu o tus <a href="#" class="blue-no-line">recetas médicas</a>, registrar
+                                    signos vitáles y agregar diagnósticos libremente o a través de la base de datos del
+                                    <a href="#" class="blue-no-line">recetas médicasCIE10.</a></p>
+                            </div>
+                            <div>
+                                <h4 class="right-subtitle">
+                                    Rápida
+                                </h4>
+                                <p class="right-description">Fue pensada para que la atención estuviera en tu paciente.
+                                    Puedes escribir libremenete lo que va saliendo durante la consulta. Es
+                                    importante que terminando de escribir la nota médica, agregues el diagnóstico ya sea
+                                    con
+                                    la base de datos internacional del
+                                    CIE10 o escribir libremente, posteriormente la temporalidad (Si es primera vez
+                                    diagnosticado o subsecuente).</p>
+                                <h4 class="right-subtitle">
+                                    SOAP
+                                </h4>
+                                <p class="right-description">De forma ordenada, empezando en subjetivo y terminando en
+                                    plan,
+                                    puedes anotar libremente en cada uno de los campos.
+                                    Tambien es importante recordar que se debe agregar el diagnóstico y la temporalidad.
+                                </p>
+                                <h4 class="right-subtitle">
+                                    Signos Vitales (S/v)
+                                </h4>
+                                <p class="right-description">En cualquiera de las dos opciones de notas médicas, puedes
+                                    agregar sus signos vitales de manera estructurada. Te aparecerá
+                                    algo así:</p><br>
+                                <img width="200px;" height="auto;" src="images\soporte\img.png">
+                                <h4 class="right-subtitle">
+                                    Receta
+                                </h4>
+                                <p class="right-description">Las notas médicas cuentan con la opción para crear una
+                                    receta.
+                                    La receta es una de las herramientas más completas y seguras con las que cuenta Hi
+                                    Doc.
+                                    Si quieres saber más sobre la receta ve
+                                    a la <a href="#" class="blue-no-line">sección de receta.</a></p>
+                                <h4 class="right-subtitle">
+                                    Observación
+                                </h4>
+                                <p class="right-description">Por ley interacional, ninguna nota médica puede editarse o
+                                    eliminarse. Hi Doc te brinda una opción para agregar una observación
+                                    o nota adicional a la nota médica original. El objetivo principal es que en caso de
+                                    que
+                                    te hayas equivocado en la nota o deseas
+                                    agregar información adicional puedas hacerlo sin perjudicar la nota médica guardada.
+                                    Solamente podrás hacerlo una vez por
+                                    nota.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div ></div>
+                <div class="separator" id="estudios" ></div>
+
+                <div class="row support-content" >
+                    <div class="col-xl-5 col-lg-12 description-left">
+                        <div class="asd">
+                            <h2 class="left-title">
+                                Estudios y anexos
+                            </h2>
+                            <h2 class="plus-icon-wrapper"><a data-toggle="collapse" data-target="#" id="btn6"><i
+                                        class="fa fa-plus plus-icon" style="color: #133454;"></i></a></h2>
+                        </div>
+                    </div>
+                    <div class="col-xl-7 col-lg-12 description-right">
+                        <div id="collap6">
+                            <div>
+                                <h3 class="right-title">Subir un archivo</h3>
+                                <p class="right-description">El sistema Hi Doc te permite subir y descargar todo tipo de
+                                    archivos, fotos y video (pdf, png, jpeg, mp4, heic, entre otros).
+                                    En esta sección puedes guardar sus estudios de laboratorio, radiografías,
+                                    endoscopías,
+                                    <a href="#" class="blue-no-line">expedientes físicos </a>o cualquier archivo
+                                    que sea importante para tu paciente. Lo puede hacer tu asistente antes de entrar a
+                                    tu
+                                    consultorio o durante consulta.</p>
+                            </div>
+                            <div>
+                                <h4 class="right-subtitle">
+                                    Para hacerlo:
+                                </h4>
+                                <ul class="right-list no-padding-top">
+                                    <li>1.- Ve al expediente de tu paciente.</li>
+                                    <li>2.- Haz click en la sección de archivos y anexos.</li>
+                                    <li>3.- Da click en la nube. <i class="fas fa-cloud-upload-alt"
+                                            style="color: #0073CE;"></i>
+                                    </li>
+                                    <li>4.- Selecciona el archivo desde tu computadora.</li>
+                                </ul>
+                                <h4 class="right-subtitle">
+                                    Crea carpetas
+                                </h4>
+                                <p class="right-description">Una vez subido el archivo, puedes ordenarlos en carpetas.
+                                    Para
+                                    hacerlo:</p>
+                                <ul class="right-list no-padding-top">
+                                    <li>1.- Dentro de estudios y anexos.</li>
+                                    <li>2.- Da click en el ícono del folder.    <span class="fas fa-folder-plus"
+                                            style="color: darkslategrey;"></span> </li>
+                                    <li>3.- Aparecerá un recuadro como este.    <span class="nombre-carpeta">Nombre carpeta&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-check"></i></span></li>
+                                    <li>4.- Escribe el nombre de la carpeta y da click en la paloma.</li>
+                                </ul>
+                                <h4 class="right-subtitle">
+                                    Guarda el archivo en carpetas
+                                </h4>
+                                <p class="right-description">Puedes hacerlo de 2 maneras: arrastrando el archivo, o
+                                    desde el
+                                    archivo en la opción que dice <b>carpeta.</b></p>
+                                <h4 class="right-subtitle">
+                                    Para arrastrar:
+                                </h4>
+                                <p class="right-description">Ya que tienes tu carpeta pasa el cursor, sin dar click, por
+                                    encima del archivo que deseas guardar en la misma. Da click y sin dejar
+                                    de apretar el mouse arrastra el archivo en la carpeta que desees y listo, tu archivo
+                                    quedó en una carpeta.
+                                    Para regresar el archivo a la sección general, dentro de la carpeta, pasa nuevamente
+                                    el
+                                    cursor sin dar click sobre el archivo que
+                                    deseas y arrastralo a la opción que dice <b>Totales.</b></p>
+                                <h4 class="right-subtitle">
+                                    Desde la carpeta:
+                                </h4>
+                                <p class="right-description">Abre tu archivo y en la parte inferior centrada a la
+                                    pantalla,
+                                    verás una opción que dice <b>carpeta.</b> Da click a la opción y selecciona la
+                                    carpeta donde quieres guardar tu archivo.<br>Importante: Para regresar de una
+                                    carpeta a
+                                    los archivos sin carpeta, arriba del archivo junto al nombre, da click en
+                                    <b>Totales.</b>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="superEspacio"></div> 
+            <div class="footer">
+                <div class="st2">
+                    <div class="contact-us-wrapper">
+                        <div class="row justify-content-center">
+                            <div class="col text-center title">
+                                <h3 class="title white white">Contacto</h3>
+                                <h4>Queremos escucharte</h4>
+                                <h4>Si tienes alguna duda ponte en contacto con nosotros</h4>
+                            </div>
+                        </div>
+
+                        <div class="row justify-content-center">
+                            <div class="col-xl-6 col-12 grid-margin">
+                                <div class="contact-form">
+                                    <form action="" method="POST" class="contact-us">
+
+                                        <div class="form-group row">
+                                            <div class="col-xl-6 col-12 mb-2">
+                                                <label for="name"></label>
+                                                <input type="text" name="name" id="name" required placeholder="Nombre">
+                                            </div>
+
+                                            <div class="col-xl-6 mb-2">
+                                                <label for="phone"></label>
+                                                <input type="text" name="phone" id="phone" required
+                                                    placeholder="Teléfono">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <div class="col-12 mb-2">
+                                                <label for="content"></label>
+                                                <input type="text" name="content" id="content" required
+                                                    placeholder="Escríbenos">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group row">
+                                            <div class="col-12 mb-2" style="position: relative;">
+                                                <label for="email"></label>
+                                                <input type="text" name="email" id="email" required
+                                                    placeholder="Correo">
+                                                <input type="submit" value="Enviar" class="submit">
+                                            </div>
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center whatsapp-wrapper">
+                            <a href="https://wa.me/525535154477"  target="_blank"><img src="images/footer/social/whatsapp.svg"></a>
+                            <a href="https://wa.me/525535154477"  target="_blank" style="color:white" ><span class="whatsapp-text">(55) 3515 4477</span></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-11 ml-lg-5">
+                        <div class="row justify-content-center">
+                            <div class="col-xl-8 col-lg-12 col-sm-11">
+
+                                <div class="col-12 navigation-wrapper">
+                                    <div class="category col-xl-2 col-lg-6">
+                                        <h3 class="title white">Home</h3>
+
+                                        <ul>
+                                            <li>
+                                                <a href="index.html#intro2">Características</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#beneficios">Beneficios</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#ecologia">Ecólogico</a>
+                                            </li>
+                                            <li>
+                                                <a href="planes.html">Planes</a>
+                                            </li>
+                                            <li>
+                                                <a href="index.html#testimonios">Testimonios</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="category col-xl-2 col-lg-6">
+                                        <h3 class="title white">Expediente</h3>
+
+                                        <ul>
+                                            <li>
+                                                <a href="expediente.html#visualiza">Visualiza</a>
+                                            </li>
+                                            <li>
+                                                <a href="expediente.html#notas-medicas">Notas médicas</a>
+                                            </li>
+                                            <li>
+                                                <a href="expediente.html#recetas-medicas-digitales">Recetas médicas
+                                                    digitales</a>
+                                            </li>
+                                            <li>
+                                                <a href="expediente.html#certificacion">Certificación</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <!-- <div class="category col-xl-2 col-lg-6">
+                                        <h3 class="title white">Clínicas</h3>
+
+                                        <ul>
+                                            <li>
+                                                <a href="expediente.html">Expediente único</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://medico.hidoc.com.mx/registro">Hi Doc Console</a>
+                                            </li>
+                                            <li>
+                                                <a href="#">Tag the Doc</a>
+                                            </li>
+                                            <li>
+                                                <a href="planes.html">Precio</a>
+                                            </li>
+                                        </ul>
+                                    </div> -->
+
+                                    <div class="category col-xl-2 col-lg-6">
+                                        <h3 class="title white">Planes</h3>
+
+                                        <ul>
+                                            <li>
+                                                <a href="planes.html#precios">Básico</a>
+                                            </li>
+                                            <li>
+                                                <a href="planes.html#precios">Plus</a>
+                                            </li>
+                                            <li>
+                                                <a href="planes.html#precios">Clínicas</a>
+                                            </li>
+                                            <li>
+                                                <a href="planes.html#almacenamiento">Almacenamiento</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="category col-xl-2 col-lg-6">
+                                        <h3 class="title white">Seguridad</h3>
+
+                                        <ul>
+                                            <li>
+                                                <a href="seguridad.html#nube">Nube</a>
+                                            </li>
+                                            <li>
+                                                <a href="seguridad.html#nube">Encriptado</a>
+                                            </li>
+                                            <li>
+                                                <a href="seguridad.html#nube">Contraseña</a>
+                                            </li>
+                                           <!--  <li>
+                                                <a href="#">Fiel</a>
+                                            </li> -->
+                                        </ul>
+                                    </div>
+
+                                    <div class="category col-xl-2 col-lg-6">
+                                        <h3 class="title white">Nosotros</h3>
+
+                                        <ul>
+                                            <li>
+                                                <a href="nosotros.html#empresa">Empresa</a>
+                                            </li>
+                                            <li>
+                                                <a href="nosotros.html#consejo-medico">Consejo Medico</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </div>
+                            </div>
+                            
+
+
+                            <div class="col-xl-4 col-lg-12 col-sm-11">
+                                <div class="col-12 social-network-wrapper2">
+                                    <a href="https://www.facebook.com/hidocsolutions/" target="_blank"><img src="images/footer/social/facebook.svg"></a>
+                                    <a href="https://www.instagram.com/hidocsolutions/?hl=es-la" target="_blank"><img src="images/footer/social/instagram.svg"></a>
+                                    <a href="https://twitter.com/hidocmx" target="_blank"><img src="images/footer/social/tweeter.svg" height="100px"></a>
+                                    <a href="https://www.linkedin.com/organization-guest/company/hi-doc-?challengeId=AQFQfMqSW5xDIQAAAXNdIRb3jW1kugi4eJruyjHqfcSdQ6yKj-HT0PLCoY4qQrPUazHMngFbTGsTr2V8lRpwY5ZYbF5AC89rIA&submissionId=5040f61f-ca8f-2216-6f45-884afa734908" target="_blank"><img src="images/footer/social/linkedin.svg" ></a>
+                                </div>
+
+                                <div class="col-12 certification">
+                                    <p>
+                                        Hi Doc® está certificado por la Secretaría de Salud ante la NOM-024-003-2012,
+                                        aprobado
+                                        por
+                                        COFEPRIS
+                                        y
+                                        cumple con los estándares de seguridad de la ISO 27000.
+                                    </p>
+
+                                    <div class="logos-wrapper">
+                                        <div class="secretaria-logo"><a href="http://www.dgis.salud.gob.mx/intercambio/certificados/DGIS-CER-P-004-2019-08_gobmx.html" target="_blank"><img src="images/footer/logos/secretaria-de-salud-logo.svg" /></a></div>
+                                        <div class="cofepris-logo"><img src="images/footer/logos/cofepris-logo.svg" /></div>
+                                        <div class="logo2 nom-logo"><img src="images/footer/logos/nom-logo.svg" /></div>
+                                        <div class="logo2 iso-logo"><img src="images/footer/logos/iso-logo.svg" /></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 bottom">
+                        <div class="bottom-footer_">
+                            <p class="copyright">
+                                Copyright © 2016 - 2020 by Hi Doc Solutions S.A. de C.V.  Todos los derechos reservados.
+                            </p>
+                            
+                        </div>
+                        <img src="images/home/hi-doc-logo.svg" class="hi-doc-logo">
+
+                        <div class="terms-and-privacy bottom-footer_">
+                            <ul>
+                                <li>
+                                    <a href="terminos.html" style="color: #133454;">Términos de Uso</a>
+                                </li>
+                                <li>
+                                    <a href="politicas.html" style="color: #133454;">Politica de privacidad</a>
+                                </li>
+                                <li>
+                                    <a href="oid.html#intro" style="color: #133454;">OID</a>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+    <script src="js/navbar.js"></script>
+    <script>
+        function gotoPage() {
+            window.location.href = './expediente.html';
+        }
+        $(document).ready(function () {
+            if(window.innerWidth >= 1200)
+            {
+                flag = true;
+                
+            }
+            else{
+                flag = false;
+                $('#collap1').addClass("collapse")
+                    $('#collap2').addClass("collapse")
+                    $('#collap3').addClass("collapse")
+                    $('#collap4').addClass("collapse")
+                    $('#collap5').addClass("collapse")
+                    $('#collap6').addClass("collapse")
+            }
+            var flag1 = true //collapsed
+            var flag2 = true //collapsed
+            var flag3 = true //collapsed
+            var flag4 = true //collapsed
+            var flag5 = true //collapsed
+            var flag6 = true //collapsed
+            $('#btn1').click(function () {
+                    $('#collap1').collapse('toggle');
+                    
+                    if (flag1) {
+                        $('#btn1 i').removeClass('fa fa-plus')
+                        $('#btn1 i').addClass('fa fa-minus')
+                        flag1 = !flag1
+                    } else {
+                        $('#btn1 i').removeClass('fa fa-minus')
+                        $('#btn1 i').addClass('fa fa-plus')
+                        flag1 = !flag1
+                    }
+                    
+                
+            })
+            $('#btn2').click(function () {
+                $('#collap2').collapse('toggle');
+                if (flag2) {
+                        $('#btn2 i').removeClass('fa fa-plus')
+                        $('#btn2 i').addClass('fa fa-minus')
+                        flag2 = !flag2
+                    } else {
+                        $('#btn2 i').removeClass('fa fa-minus')
+                        $('#btn2 i').addClass('fa fa-plus')
+                        flag2 = !flag2
+                    }
+            })
+
+            $('#btn3').click(function () {
+                $('#collap3').collapse('toggle');
+                if (flag3) {
+                        $('#btn3 i').removeClass('fa fa-plus')
+                        $('#btn3 i').addClass('fa fa-minus')
+                       
+                    } else {
+                        $('#btn3 i').removeClass('fa fa-minus')
+                        $('#btn3 i').addClass('fa fa-plus')
+                        
+                    }
+                    flag3 = !flag3
+            })
+            $('#btn4').click(function () {
+                $('#collap4').collapse('toggle');
+                if (flag4) {
+                        $('#btn4 i').removeClass('fa fa-plus')
+                        $('#btn4 i').addClass('fa fa-minus')
+                       
+                    } else {
+                        $('#btn4 i').removeClass('fa fa-minus')
+                        $('#btn4 i').addClass('fa fa-plus')
+                        
+                    }
+                    flag4 = !flag4
+            })
+            $('#btn5').click(function () {
+                $('#collap5').collapse('toggle');
+                if (flag5) {
+                        $('#btn5 i').removeClass('fa fa-plus')
+                        $('#btn5 i').addClass('fa fa-minus')
+                       
+                    } else {
+                        $('#btn5 i').removeClass('fa fa-minus')
+                        $('#btn5 i').addClass('fa fa-plus')
+                        
+                    }
+                    flag5 = !flag5
+            })
+            $('#btn6').click(function () {
+                $('#collap6').collapse('toggle');
+                if (flag6) {
+                        $('#btn6 i').removeClass('fa fa-plus')
+                        $('#btn6 i').addClass('fa fa-minus')
+                       
+                    } else {
+                        $('#btn6 i').removeClass('fa fa-minus')
+                        $('#btn6 i').addClass('fa fa-plus')
+                        
+                    }
+                    flag6 = !flag6
+            })
+
+            $('#arrow').click(function () {
+                $(this).find('i').toggleClass('reverse')
+            })
+            $('#collapse1 ul li a').click(function () {
+                $('#arrow').click()
+            })
+            var flag = true;
+            $(window).resize(function () {
+
+                if (window.innerWidth >= 1200 && !flag) {
+
+                    $('#collap1').removeClass("collapse")
+                    $('#collap2').removeClass("collapse")
+                    $('#collap3').removeClass("collapse")
+                    $('#collap4').removeClass("collapse")
+                    $('#collap5').removeClass("collapse")
+                    $('#collap6').removeClass("collapse")
+                    flag = true;
+                } else if (window.innerWidth < 1200 && flag) {
+                    $('#collap1').addClass("collapse")
+                    $('#collap2').addClass("collapse")
+                    $('#collap3').addClass("collapse")
+                    $('#collap4').addClass("collapse")
+                    $('#collap5').addClass("collapse")
+                    $('#collap6').addClass("collapse")
+                    flag = false;
+                }
+            })
+            
+            $("#collapse1 ul li a, .logo-title a#homebtn").on('click', function (event) {
+
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+                        window.location.hash = hash;
+                    });
+                } 
+            });
+        })
+    </script>
+</body>
+
+</html>

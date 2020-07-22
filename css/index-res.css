@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("Fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("Fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("Fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium Italic";
+    src: url("Fonts/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto-Regular.ttf");
+}
+
+@media screen and (min-width: 426px) {
+    .intro-container .intro-text-area {
+        display: flex;
+    }
+    .intro-container .intro-image-area {
+        display: flex;
+        width: 100%;
+    }
+    .intro-container .intro-image-area img {
+        width: 70%;
+        height: auto;
+    }
+    .intro-container p.main-title {
+        font-size: 23rem;
+        text-align: center;
+        padding: 150px 24px 24px 36px;
+    }
+    .intro-container p.main-description {
+        font-size: 9rem;
+        padding: 5px 50px 5px 50px;
+    }
+    .intro-container div.main-buttons-area {
+        text-align: center;
+        flex-direction: column;
+    }
+    .intro-container div.main-buttons-area .button {
+        display: flex;
+
+    }
+
+    /* perks-container */
+    .perks-container p.main-title {
+        font-size: 16rem;
+        text-align: center;
+        padding: 5px 0px;
+    }
+    .perks-container p.main-description {
+        font-size: 9rem;
+        text-align: center;
+        padding: 2px 5px 10px 5px;
+    }
+    .perks-container .perk-card .wrapper {
+        padding: 0px 0px 0px 0px;
+    }
+    .perks-container .perk-card {
+        display: flex;
+        flex: 70%;
+    }
+
+    /* simple perks */
+    .simple-cards-wrapper .perk-card-simple p.main-title {
+        font-size: 15rem;
+        text-align: left;
+    }
+    .simple-cards-wrapper .perk-card-simple p.main-description {
+        font-size: 13rem;
+        text-align: left;
+        padding-top: 5px;
+    }
+}

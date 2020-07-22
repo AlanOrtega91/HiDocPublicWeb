@@ -1,0 +1,1157 @@
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+}
+
+@media screen and (min-width: 320px) {
+
+
+
+
+    .intro-container {
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(180deg, rgba(33, 87, 121, 1) 35%, rgba(255, 255, 255, 1) 100%);
+        padding-bottom: 80px;
+    }
+
+    .intro-container h2 {
+        /* font-size: 28px; */
+        padding: 100px 0px 20px 10px;
+        font-family: Roboto Bold;
+    }
+
+    .intro-container .button {
+        width: 134px;
+        height: 28px;
+        /* font-size: 9.3px; */
+        padding: 0px 0px;
+    }
+
+    .intro-container .intro-description p {
+        /* font-size: 14px; */
+        font-family: Roboto;
+        padding-bottom: 22px;
+    }
+
+    .price_method {
+        flex-direction: column-reverse;
+    }
+
+    .price_auto {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .price_item {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .price_auto h3 {
+        font-size: 14px;
+        padding-top: 0px;
+    }
+
+    .price_item a,
+    .price_item {
+        /* font-size: 13.33px; */
+        color: #007bff;
+
+    }
+
+    div.space {
+        height: 100px;
+    }
+
+    .plan .title {
+        padding: 20px 0;
+        text-align: center;
+    }
+
+   
+        
+
+
+    .plan .button-wrapper button {
+        padding: 4px;
+        width: 140px;
+        /* font-size: 11px; */
+        font-weight: bold;
+        border-radius: 4px;
+        font-family: Roboto;
+    }
+
+    .currency {
+        /* font-size: 9.33px; */
+    }
+
+    .plan .price.yearly {
+        padding: 0;
+        /* position: absolute; */
+        /* font-size: 16px; */
+        padding-top: 9px;
+        text-align: right;
+        padding-right: 20px;
+        color: white;
+        font-family: Roboto;
+        margin-bottom: 30px;
+    }
+
+
+    .row div.plan {
+        width: 85%;
+        padding-top: 20px;
+    }
+
+    div.plan .price-wrapper {
+        height: 210px;
+    }
+
+    .storage-wrapper p {
+        padding-top: 20px;
+        /* font-size: 11px; */
+        color: #666666;
+        font-family: Roboto;
+    }
+
+
+
+    div.plan.clinic .cotizar {
+        top: 0;
+        /* font-size: 14px; */
+        padding-left: 12px;
+    }
+
+    div.plan.clinic .price.yearly {
+        padding-top: 9px;
+        text-align: right;
+        padding-right: 20px;
+        font-family: Roboto;
+    }
+
+    .price-wrapper span.amount-medics-displayer {
+       
+        /* font-size: 21px; */
+    }
+
+    div.plan div.features-wrapper {
+        height: 640px;
+    }
+
+    .plan div.features-wrapper ul li {
+        font-size: 14px;
+        font-family: Roboto;
+        padding: 5px 0px;
+    }
+
+    .storage-wrapper {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    label.switch {
+        width: 42px;
+        height: 15px;
+    }
+
+    .switch .slider:before {
+        height: 80%;
+        width: 28%;
+        left: 5%;
+        bottom: 10%;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    .pricing input:checked+label {
+        background: #6FBDC1;
+    }
+
+    .pricing input:checked+label:after {
+        left: calc(100% - 3px);
+        transform: translateX(-100%);
+    }
+
+    .pricing label:active:after {
+        width: 130px;
+    }
+
+    img.plan-image {
+        height: 150px;
+    }
+
+    .storage-wrapper table {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 1em;
+        color: #666;
+        font-family: Roboto;
+    }
+    
+    .storage-wrapper td {
+        background-color: #DBD25E;
+        width: 500px;
+        height: 40px;
+        text-align: center;
+        border-right: 5px solid white;
+        border-bottom: 5px solid white;
+        /* font-size: 20px; */
+    }
+
+    .storage-wrapper th {
+        width: 1000px;
+        background-color: #F7F5E2;
+        height: 60px;
+        border-right: 10px solid white;
+    }
+
+    div.plan .price-wrapper {
+        height: 240px;
+    }
+
+    div.space {
+        height: 0px;
+    }
+
+    span.medic-left,
+    span.medic-right {
+        /* position: absolute; */
+        font-size: 12px;
+    }
+
+    .price-wrapper span.amount-medics-displayer {
+        font-size: 12px;
+    }
+
+    .plan .iva {
+        padding: 20px;
+        font-size: 10px;
+        font-style: italic;
+        font-family: Roboto;
+    }
+    .plan.clinic .iva {
+        /* padding: 0px; */
+        padding: 5px 0px;
+        color: white;
+    }
+    .slider-area {
+        padding-top: 13px;
+        margin-top: 10px;
+        
+    }
+}
+
+@media screen and (min-width: 425px) {
+
+    
+
+    .plan .iva {
+        padding: 20px;
+        font-size: 10px;
+        font-style: italic;
+        font-family: Roboto;
+    }
+
+    .intro-container {
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(180deg, rgba(33, 87, 121, 1) 35%, rgba(67, 115, 145, .1) 100%);
+        padding-bottom: 80px;
+    }
+
+    .intro-container h2 {
+        /* font-size: 28px; */
+        padding: 120px 0px 20px 10px;
+    }
+
+    .intro-container .button {
+        width: 160px;
+        height: 32px;
+        /* font-size: 9.3px; */
+        padding: 10px 10px;
+    }
+
+    .intro-container .intro-description p {
+        /* font-size: 14px; */
+        font-family: Roboto;
+        padding-bottom: 24px;
+    }
+
+    .price_method {
+        flex-direction: column-reverse;
+    }
+
+    .price_auto {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .price_item {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+    }
+
+    /* .price_auto h3 {
+        font-size: 16px;
+        padding-top: 10px;
+    } */
+
+    .price_item a,
+    .price_item {
+        /* font-size: 13.33px; */
+
+    }
+
+    div.space {
+        height: 100px;
+    }
+
+ 
+
+
+    .plan .button-wrapper button {
+        padding: 4px;
+        width: 140px;
+        /* font-size: 11px; */
+        font-weight: bold;
+        border-radius: 4px;
+
+    }
+
+    .currency {
+        /* font-size: 9.33px; */
+    }
+
+  
+    .row div.plan {
+        width: 75%;
+        padding-top: 20px;
+    }
+
+    div.plan .price-wrapper {
+        height: 210px;
+    }
+
+    .storage-wrapper p {
+        padding-top: 30px;
+        /* font-size: 11px; */
+        color: #666666;
+        font-family: Roboto;
+    }
+
+
+    div.plan.clinic .cotizar {
+        top: 0;
+        /* font-size: 14px; */
+        padding-left: 14px;
+    }
+
+
+    .price-wrapper span.amount-medics-displayer {
+        /* font-size: 21px; */
+    }
+
+    div.plan div.features-wrapper {
+        height: 640px;
+    }
+
+    .plan div.features-wrapper ul li {
+        /* font-size: 16px; */
+        font-family: Roboto;
+    }
+
+    .storage-wrapper {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    /* label.switch {
+        width: 55px;
+        height: 22px;
+    } */
+
+    /* .switch .slider:before {
+        height: 80%;
+        width: 34%;
+        left: 10%;
+        bottom: 10%;
+    } */
+
+    .pricing input:checked+label {
+        background: #6FBDC1;
+    }
+
+    .pricing input:checked+label:after {
+        left: calc(100% - 3px);
+        transform: translateX(-100%);
+    }
+
+    .pricing label:active:after {
+        width: 130px;
+    }
+
+    img.plan-image {
+        height: 150px;
+    }
+
+   
+
+    .storage-wrapper td {
+        background-color: #DBD25E;
+        width: 500px;
+        height: 40px;
+        text-align: center;
+        border-right: 5px solid white;
+        border-bottom: 5px solid white;
+    }
+
+
+    div.plan .price-wrapper {
+        height: 240px;
+    }
+
+    div.space {
+        height: 0px;
+    }
+
+    span.medic-left,
+    span.medic-right {
+        /* position: absolute; */
+        /* font-size: 12px; */
+    }
+
+    .price-wrapper span.amount-medics-displayer {
+        /* font-size: 12px; */
+    }
+
+    .price_item {
+        padding: 30px 0px 30px 0px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width: 768px) {
+
+
+    .intro-container h2 {
+        /* font-size: 32px; */
+        padding: 120px 0px 20px 10px;
+    }
+
+    .intro-container .button {
+        width: 160px;
+        height: 35px;
+        /* font-size: 12px; */
+        padding: 10px 10px;
+    }
+
+    .intro-container .intro-description p {
+        /* font-size: 16px; */
+        font-family: Roboto;
+        padding-bottom: 24px;
+    }
+
+    div.plan {
+        width: 30%;
+    }
+
+    div.plan .features-wrapper {
+        height: 1210px;
+    }
+
+
+    .plan .button-wrapper button {
+        padding: 6px;
+        width: 180px;
+        /* font-size: 12px; */
+    }
+
+   
+
+    .storage-wrapper td {
+        width: 500px;
+        height: 48px;
+    }
+
+ 
+    div.plan .price-wrapper {
+        height: 280px;
+    }
+
+    div.space {
+        height: 39px;
+    }
+
+    span.medic-left,
+    span.medic-right {
+        /* position: absolute; */
+        /* font-size: 12px; */
+    }
+    .row div.plan {
+        width: 60%;
+        padding-top: 40px;
+    }
+    
+    .price-wrapper span.amount-medics-displayer {
+        /* font-size: 12px; */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .intro-container h2 {
+        /* font-size: 32px; */
+        padding: 160px 0px 20px 10px;
+    }
+
+    .price_auto {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .price_item {
+        padding: 0px 0px 30px 0px;
+        text-align: center;
+    }
+
+    .price_auto h3 {
+        /* font-size: 14px; */
+        padding-top: 0px;
+    }
+
+    .price_item a,
+    .price_item {
+        /* font-size: 16px; */
+
+    }
+
+    .intro-container .button {
+        width: 160px;
+        height: 32px;
+        /* font-size: 12px; */
+        padding: 6px 10px 6px 10px;
+    }
+
+    #precios {
+        padding: 0px 10%;
+    }
+
+    .intro-container .intro-description p {
+        /* font-size: 16px; */
+        font-family: Roboto;
+        padding-bottom: 24px;
+    }
+
+  
+    .storage-wrapper p {
+        padding-top: 20px;
+        /* font-size: 13.333px; */
+    }
+
+    div.plan.clinic .cotizar {
+        /* font-size: 16px; */
+        padding-left: 20px;
+    }
+
+    div.plan .price-wrapper {
+        height: 276px;
+    }
+
+    div.space {
+        height: 39px;
+    }
+
+    span.medic-left,
+    span.medic-right {
+        /* position: absolute; */
+        /* font-size: 12px; */
+    }
+
+    .price-wrapper span.amount-medics-displayer {
+        /* font-size: 12px; */
+    }
+
+   
+}
+
+@media screen and (min-width: 1200px) {
+    .price_method {
+        flex-direction: row;
+    }
+
+    .storage-wrapper table {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 1em;
+        color: #666;
+        font-family: Roboto;
+        padding: 0 100px;
+    }
+
+    .price_auto {
+        padding: 0px 0px 30px 0px;
+        /* text-align: center; */
+        left: 12%;
+    }
+
+    .price_item {
+        padding: 0px 128px 30px 0px;
+        text-align: right;
+    }
+    .row div.plan {
+        width: 32%;
+        padding-top: 20px;
+    }
+    .price_auto h3 {
+        /* font-size: 16px; */
+        padding-top: 0px;
+    }
+    .plan.clinic .iva {
+        /* padding: 0px; */
+        padding: 4px 20px 21px 20px;
+        color: white;
+    }
+   
+
+    .price_item a,
+    .price_item {
+        /* font-size: 18px; */
+
+    }
+
+    div.space {
+        height: 50px;
+    }
+
+    span.medic-left,
+    span.medic-right {
+        
+        font-size: 14px;
+    }
+
+    .price-wrapper span.amount-medics-displayer {
+        /* font-size: 14px; */
+    }
+
+}
+
+@media screen and (min-width: 1366px) {
+    .intro-container h2 {
+        /* font-size: 44px; */
+        padding: 124px 0px 20px 10px;
+    }
+
+    .intro-container .button {
+        width: 180px;
+        height: 36px;
+        /* font-size: 16px; */
+        padding: 5px 10px 5px 10px;
+    }
+
+    .intro-container .intro-description p {
+        /* font-size: 18px; */
+        font-family: Roboto;
+        padding-bottom: 36px;
+    }
+
+    label.switch {
+        width: 56px;
+        height: 20px;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(36px);
+        -ms-transform: translateX(36px);
+        transform: translateX(36px);
+    }
+
+    .price_method {
+        margin-top: 80px;
+        padding-bottom: 0px;
+    }
+
+    .price_auto {
+        padding: 0px 0px 30px 0px;
+        /* text-align: center; */
+        left: 12%;
+    }
+
+    .price_item {
+        padding: 0px 154px 20px 0px;
+        text-align: right;
+    }
+
+    /* .price.monthly .odometer-inside {
+        font-size: 72px;
+    } */
+    .price_auto h3 {
+        /* font-size: 20px; */
+        padding-top: 0px;
+    }
+
+    .price_item a,
+    .price_item {
+        /* font-size: 20px; */
+
+    }
+
+
+    .plan div.features-wrapper ul li {
+        /* font-size: 16px; */
+    }
+
+    .storage-wrapper td {
+        width: 600px;
+        height: 64px;
+    }
+
+    div.space {
+        height: 52px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    .intro-container h2 {
+        /* font-size: 48px; */
+        padding: 180px 0px 20px 10px;
+    }
+
+    .intro-container .button {
+        width: 210px;
+        height: 42px;
+        /* font-size: 18px; */
+        padding: 6px 10px 6px 10px;
+    }
+
+    .intro-container .intro-description p {
+        /* font-size: 20px; */
+        font-family: Roboto;
+        padding-bottom: 42px;
+    }
+
+    label.switch {
+        width: 72px;
+        height: 24px;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(45px);
+        -ms-transform: translateX(45px);
+        transform: translateX(45px);
+    }
+
+    .price_method {
+        padding-top: 100px 0px;
+        margin-top: 100px;
+        /* padding-bottom: 100px; */
+    }
+
+    .price_auto {
+        padding: 0px 0px 30px 0px;
+        /* text-align: center; */
+        left: 12%;
+    }
+
+    .price_item {
+        padding: 0px 180px 20px 0px;
+        text-align: right;
+    }
+
+    /* .price.monthly .odometer-inside {
+        font-size: 80px;
+    } */
+    .price_auto h3 {
+        /* font-size: 22px; */
+        padding-top: 0px;
+    }
+
+    .price_item a,
+    .price_item {
+        /* font-size: 22px; */
+    }
+
+    div.space {
+        height: 52px;
+    }
+
+    .storage-wrapper {
+        width: 45%;
+        margin: 0 auto;
+    }
+
+    div.space {
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 1920px) {
+
+    .intro-container h2 {
+        /* font-size: 54px; */
+        padding: 210px 0px 20px 10px;
+    }
+
+    .intro-container .button {
+        width: 232px;
+        height: 48px;
+        /* font-size: 20px; */
+        padding: 6px 10px 6px 10px;
+    }
+
+    .intro-container .intro-description p {
+        /* font-size: 22px; */
+        font-family: Roboto;
+        padding-bottom: 64px;
+    }
+    label.switch {
+        width: 75px;
+        height: 26px;
+    }
+
+    .storage-wrapper p {
+        padding-top: 20px;
+        /* font-size: 20px; */
+    }
+    .price_method {
+        padding-top: 100px 0px;
+        margin-top: 100px;
+        /* padding-bottom: 100px; */
+    }
+
+    .price_auto {
+        padding: 0px 0px 30px 0px;
+        /* text-align: center; */
+        left: 12%;
+    }
+
+    .price_item {
+        padding: 0px 204px 20px 0px;
+        text-align: right;
+    }
+
+    .price_auto h3 {
+        /* font-size: 24px; */
+        padding-top: 0px;
+    }
+
+    .price_item a,
+    .price_item {
+        /* font-size: 24px; */
+
+    }
+    .plan div.features-wrapper ul li {
+        /* font-size: 18px; */
+    }
+
+    div.space {
+        height: 60px;
+    }
+
+  
+}
+
+.selected {
+    pointer-events: none;
+}
+
+.duration {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    color: #133454;
+    /* font-size: 0.9em; */
+    font-family: "Roboto Bold", serif;
+}
+
+.plan {
+    margin: 0 auto;
+    width: 590px;
+}
+
+
+
+.plan.basic .title {
+    background-color: #CEE3F6;
+}
+
+.plan.plus .title {
+    background-color: #A1C7EB;
+}
+
+.plan.clinic .title {
+    background-color: #C4E7E3;
+}
+
+.plan.plus .price-wrapper {
+    background-color: #53A0E4;
+}
+
+.plan.clinic .price-wrapper {
+    background-color: #6FBDC1;
+}
+
+.plan.basic .price-wrapper {
+    background-color: #A1C7EB;
+}
+
+.plan .price-wrapper {
+    height: 380px;
+    text-align: center;
+    background-color: #A1C7EB;
+}
+
+.plan .price-wrapper {
+    position: relative;
+}
+
+
+
+.price-wrapper .header {
+    height: 20%;
+}
+
+.plan .cotizar {
+    font-size: 0.8em;
+    padding-top: 10px;
+}
+
+input[type=range] {
+    /*position: relative; */
+    /* bottom: 72px; */
+    -webkit-appearance: none;
+    margin: 0 auto;
+    /* width: 65%; */
+    height: 8px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.plan .title {
+    font-family: Roboto;
+}
+.plan .medic-amount-wrapper {
+    position: relative;
+    bottom: 2rem;
+    left: -9.5rem;
+}
+
+
+.plan .price {
+    padding: 0 0 0 0;
+}
+
+.WrapSpec {
+
+    padding-top: 0px;
+}
+
+
+.plan button {
+    border: none;
+    padding: 10px;
+    width: 240px;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #4198CD;
+}
+
+.features-wrapper {
+    overflow: auto;
+    background-color: #4198CD;
+}
+
+.plan.plus .features-wrapper {
+    background-color: #2F679A;
+}
+
+.plan.clinic .features-wrapper {
+    background-color: #067377;
+}
+
+.plan .features-wrapper {
+    height: 1190px;
+}
+
+.plan .features-wrapper ul {
+    width: 90%;
+    color: white;
+    padding: 25px;
+    margin: 0 auto;
+}
+
+.plan .features-wrapper li {
+    /* font-size: 1.3rem; */
+    padding: 1rem 0;
+}
+
+.storage-wrapper {
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    margin: 0 10px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #E3EDF7;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #205977;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #E3EDF7;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.avatar-wrapper {
+    text-align: center;
+}
+
+.plan-image {
+    height: 300px;
+    margin: 40px 0;
+    width: 100%;
+}
+
+.in-block {
+    display: inline-block;
+}
+
+.price.monthly span,
+.price.monthly,
+.price-wrapper .iva {
+    color: white;
+}
+.basic .price.monthly span,
+.price.monthly,
+.price-wrapper .iva {
+    color: #2F679A;
+}
+.white {
+    color: white;
+}
+
+span.medic-left, span.medic-right {
+    color: white;
+    font-family: Roboto;
+}
+
+.pricing-item-color {
+    color: #032f5c;
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    margin: 18px 0;
+    width: 100%;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    /* animate: 0.2s; */
+    
+    /* background: #3071a9; */
+    border-radius: 1.3px;
+    /* border: 0.2px solid #010101; */
+}
+
+input[type=range]::-webkit-slider-thumb {
+    
+    /* border: 1px solid #000000; */
+    height: 18px;
+    width: 18px;
+    border-radius: 10px;
+    background: rgba(7,116,120, 1);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -6px;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 8.4px;
+    cursor: pointer;
+    /* animate: 0.2s; */
+    
+    /* background: #3071a9; */
+    border-radius: 1.3px;
+}
+
+input[type=range]::-moz-range-thumb {
+    height: 12px;
+    width: 12px;
+    border-radius: 12px;
+    background: #205977;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -8px;
+}
+

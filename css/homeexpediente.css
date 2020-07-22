@@ -1,0 +1,2454 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0px;
+}
+
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("Fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("Fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("Fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium Italic";
+    src: url("Fonts/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto-Regular.ttf");
+}
+
+.intro-container .medics {
+    background-image: url("images/intro/medics.svg");
+    width: 40rem;
+    height: 25rem;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+}
+
+.intro-container .screenshot {
+    background-image: url("images/intro/app-screen.png");
+}
+
+.perks-container .perk-simple-card {
+    color: black;
+
+    text-align: left;
+}
+
+.perks-container .perk-simple-card .title {
+    font-size: 37px;
+    padding-top: 51px;
+}
+
+.world {
+    width: 35rem;
+    margin: 10rem;
+}
+
+.ecology .description {
+    text-align: center;
+    color: white;
+}
+
+.ecology h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+.app-download .dummy-download-wrapper h2 {
+    font-weight: bold;
+    color: #0f2a49;
+    text-align: center;
+    font-size: 3.5rem;
+    float: center;
+    padding-bottom: 54px;
+}
+
+.opinions-about-us h2 {
+    color: #133454;
+    margin: 6rem;
+    font-size: 2.5rem;
+}
+
+.opinions-about-us .wrapper {
+    text-align: left;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #133454;
+}
+
+.opinions-about-us .medic-1 {
+    background-image: url("../images/home/medic-1.svg");
+}
+
+.opinions-about-us .medic-2 {
+    background-image: url("../images/home/medic-2.svg");
+}
+
+.opinions-about-us .selector {
+    width: 5rem;
+    height: auto;
+}
+
+.perks-container .perk-time {
+    background-image: url("../images/expediente/perk-card/book-card.svg");
+
+}
+
+.perks-container .perk-folder {
+    background-image: url("../images/expediente/perk-card/shield-card.svg");
+}
+
+.perks-container .perk-recipe {
+    background-image: url("../images/expediente/perk-card/diploma-card.svg");
+}
+
+.perks-container .perk-phone {
+    background-image: url("../images/expediente/perk-card/cloud-card.svg");
+}
+
+
+
+@media screen and (min-width: 320px) {
+
+    #miniEspacio{
+        height: 72px;
+    }
+
+    .visualiza-image {
+        width: 90%;
+        /* margin: 0 auto; */
+        margin-top: 54px;
+    }
+    .intro-container .description-wrapper {
+
+        padding: 100px 15px 0px 15px;
+        text-align: left;
+    }
+
+    .description-wrapper #intro {
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .intro-container .description-wrapper p {
+        font-size: 16px;
+        text-align: center;
+        padding: 0px 30px;
+        /* font-size: 1.3rem; Font adj*/
+    }
+
+    .intro-container .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .intro-container .buttons .button {
+        width: 98pt;
+        height: 28px;
+        margin-top: 0;
+        font-size: 9.3px;
+        margin-bottom: 10px;
+    }
+
+    .intro-container .screen-demo {
+        width: 100%;
+        padding-top: 36px;
+    }
+
+    .intro-container .screen-demo img {
+        width: 45%;
+        padding: 0px;
+    }
+
+    .flex-card-title {
+        margin: 80px 0 0 60px;
+    }
+
+    img.flower,
+    img.flower-inverted {
+        margin-top: -20px;
+        width: 4rem;
+    }
+
+    .record-perks {
+        padding-top: 24px;
+        padding-right: 20px;
+        padding-left: 22px;
+    }
+
+    .record-perk {
+        padding: 10px 0px;
+    }
+
+    .perk-icon {
+        width: 28px;
+        height: 22px;
+    }
+
+    .record-perks .record-perk-text-wrapper {
+        padding-left: 12px;
+    }
+
+
+    .record-perk-title.title,
+    .medical-notes-wrapper .flex-list-wrapper .flex-card .medical-note-title {
+        padding-bottom: 6px;
+    }
+
+  
+    .medical-notes-wrapper {
+        padding-top: 0px;
+    }
+
+    .flex-card-text-wrapper {
+        margin-left: 10px;
+    }
+
+    .flex-list-wrapper {
+        margin-top: 30px;
+        padding-left: 6%;
+        /* padding-right: 6%; */
+    }
+
+    .medical-notes-wrapper .medical-note-image-wrapper img {
+        width: 22px;
+    }
+
+    #notas-medicas,
+    .all-in-one-screen-title,
+    #notas-medicas,
+    .recetas-medicas-digitales,
+    #visualiza,
+    #certificacion {
+        font-size: 24px;
+        color: #133454;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture img {
+        width: 88%;
+        height: auto !important;
+        object-fit: contain;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+    .medical-notes-wrapper img.flower.right {
+        position: absolute;
+        float: right;
+        right: 0;
+    }
+
+    .medical-notes-wrapper .medic-at-desktop {
+        text-align: center;
+
+    }
+
+    .medical-recipes-wrapper.st1 {
+        padding: 80px 0px 40px 0px;
+    }
+
+    .recipe-perks {
+        padding-left: 24px;
+        padding-top: 48px;
+    }
+
+    .recipe-perks .recipe-perk .text-wrapper {
+        padding-left: 18px;
+    }
+
+    .recipe-perk-image-wrapper img {
+        width: 32px;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 20px;
+        /* width: 70%; */
+    }
+
+    .medical-notes-wrapper .medic-at-desktop img {
+        width: 60%;
+    }
+
+    .medical-recipes-wrapper img {
+        width: 72%;
+    }
+    .verticalcenter {
+        align-items: center;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 20px 15% 20px 15%;
+    }
+
+    .perks-container .perk-card {
+        width: 216px;
+        height: 274px;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 0.8rem;
+        color: #133454;
+        text-align: center;
+        background-size: contain;
+        margin: 0px 18px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .perks-container .perk-card .title {
+        margin-bottom: 4px;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        line-height: 24px;
+        padding-top: 24px;
+    }
+
+    .perks-container .perk-card .description {
+        text-align: left;
+        font-weight: normal;
+        padding: 0px 8px 0px 16px;
+        font-size: 12px;
+        font-family: Roboto;
+    }
+
+    
+
+    .perks-container .perk-card .wrapper {
+        position: relative;
+        padding: 36px 16px 0px 16px;
+    }
+
+
+    .perks-container .perk-simple-card .title {
+        font-size: 20px;
+        padding-top: 51px;
+    }
+
+    .perks-container .perk-simple-card .description {
+        text-align: left;
+        font-size: 17px;
+        line-height: 1.8em;
+        font-family: Roboto;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 10px 60px 100px 100px;
+    }
+
+    .perk-simple-card .perk-image {
+        width: 100%;
+        height: 72px;
+    }
+
+    .row.ecology {
+        padding: 160px 0px 160px 0px;
+        flex-direction: column-reverse;
+        padding: 160px 0px 160px 0px;
+    }
+
+    .ecology .world-image-wrapper {
+        text-align: center;
+    }
+
+    .ecology .world-image-wrapper img.world {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ecology .description-wrapper {
+        padding: 48px 8% 32px 8%;
+    }
+
+    .ecology .description h2 {
+        font-family: Roboto Bold;
+        font-weight: bold;
+        /* font-size: 25px; */
+        line-height: 48px;
+    }
+
+    .ecology .description p {
+        font-family: Roboto;
+        /* font-size: 17px; */
+        line-height: 30px;
+        font-weight: normal;
+        padding: 12px 0px;
+        text-align: center;
+    }
+
+    .app-download {
+        flex-direction: column;
+    }
+
+    .app-download .dummy-download-wrapper {
+        text-align: center;
+        padding-top: 156px;
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+        font-weight: bold;
+        color: #0f2a49;
+        text-align: center;
+        /* font-size: 29px; */
+        float: center;
+        padding-bottom: 54px;
+    }
+
+    .dummy-download {
+        width: 36%;
+        margin-top: 0;
+        float: none;
+    }
+
+    .app-download .pad-phone-wrapper {
+        text-align: center;
+    }
+
+    .app-download img.screen-demo {
+        padding: 120px 20px 0px 20px;
+        width: 84%;
+    }
+
+    .opinions-about-us .wrapper {
+        width: 80%;
+        height: 430px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .opinions-about-us h2 {
+        padding-bottom: 60px;
+    }
+
+    .opinions-about-us .wrapper .text-wrapper {
+
+        padding: 15% 10% 0px 8%;
+    }
+
+    .opinions-about-us .wrapper {
+        text-align: left;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: top;
+    }
+
+    .opinions-about-us h2 {
+        /* font-size: 29px; */
+    }
+
+    .opinions-about-us .wrapper p.title {
+        /* font-size: 21px; */
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    .opinions-about-us .wrapper p.subtitle {
+        /* font-size: 16px; */
+        padding-top: 20px;
+    }
+
+    .opinions-about-us .wrapper p.description {
+        /* font-size: 13px; */
+        padding-top: 16px;
+    }
+
+    .notes {
+        margin: 0;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .notes ul {
+        padding: 0px 30px;
+        list-style: none;
+        /* font-size: 13px; */
+    }
+
+    .opinions-about-us .selector {
+        width: auto;
+        height: 8px;
+    }
+
+    .flex-card {
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .all-in-one-screen-description {
+        padding: 16px 22px;
+    }
+.record-perk-description, .medical-note-description, .all-in-one-screen-description, .recipe-perk-description, .certifications,  .notes li {
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+}
+
+@media screen and (min-width: 425px) {
+    .intro-container .description-wrapper {
+
+        padding: 72px 0px 0px 0px;
+        text-align: left;
+    }
+
+
+
+    .flex-card-text-wrapper {
+        margin-left: 14px;
+    }
+
+    .flex-card {
+        display: flex;
+        margin-bottom: 24px;
+    }
+
+    .description-wrapper #intro {
+        /* font-size: 28px; */
+        padding-bottom: 40px;
+        text-align: center;
+    }
+
+    .intro-container .description-wrapper p {
+        /* font-size: 14px; */
+        text-align: center;
+        padding: 0px 20px;
+        /* font-size: 1.3rem; Font adj*/
+    }
+
+    .intro-container .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .intro-container .buttons .button {
+        width: 98pt;
+        height: 28px;
+        margin-top: 0;
+        /* font-size: 9.3px; */
+        margin-bottom: 10px;
+    }
+
+    .intro-container .screen-demo {
+        width: 100%;
+        padding-top: 36px;
+    }
+
+    .intro-container .screen-demo img {
+        width: 40%;
+        padding: 0px;
+    }
+
+    .flex-card-title {
+        margin: 90px 0 60px 0;
+    }
+
+
+    .record-perks {
+        padding-top: 24px;
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .record-perk {
+        padding: 9px 0px;
+    }
+
+    .perk-icon {
+        width: 28px;
+        height: 22px;
+    }
+
+    .record-perks .record-perk-text-wrapper {
+        padding-left: 12px;
+    }
+
+    .medical-notes-wrapper {
+        padding-top: 0px;
+    }
+
+    .medical-notes-wrapper .medical-note-image-wrapper img {
+        width: 24px;
+    }
+
+    .flex-list-wrapper {
+        margin-top: 30px;
+        padding-left: 8%;
+        /* padding-right: 8%; */
+    }
+
+    #notas-medicas,
+    .all-in-one-screen-title,
+    #notas-medicas,
+    .recetas-medicas-digitales,
+    #visualiza,
+    #certificacion {
+        /* font-size: 20px; */
+        color: #133454;
+        text-align: center;
+        padding-bottom: 0;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture img {
+        width: 72%;
+        height: auto !important;
+        object-fit: contain;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+    .medical-notes-wrapper .medic-at-desktop {
+        text-align: center;
+
+    }
+
+    .medical-recipes-wrapper.st1 {
+        padding: 140px 0px 40px 0px;
+    }
+
+    .recipe-perks {
+        padding-left: 24px;
+        padding-top: 48px;
+    }
+
+    .recipe-perks .recipe-perk .text-wrapper {
+        padding-left: 18px;
+    }
+
+    .recipe-perk-image-wrapper img {
+        width: 32px;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 20px;
+        /* width: 70%; */
+    }
+
+    .medical-notes-wrapper .medic-at-desktop img {
+        width: 60%;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 20px 15% 20px 15%;
+    }
+
+    .perks-container .perk-card {
+        width: 256px;
+        height: 330px;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-size: 0.8rem;
+        color: #133454;
+        text-align: center;
+        background-size: contain;
+        margin: 0px 36px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 40px;
+    }
+
+    .perks-container .perk-card .title {
+        margin-bottom: 8px;
+        text-align: center;
+        /* font-size: 20px; */
+        font-weight: bold;
+        line-height: 31px;
+        padding-top: 16px;
+    }
+
+    .perks-container .perk-card .description {
+        text-align: left;
+        font-weight: normal;
+        padding: 0px 8px 0px 16px;
+        font-family: Roboto;
+        font-size: 14px;
+    }
+
+
+    .perks-container .perk-card .wrapper {
+        position: relative;
+        padding: 60px 20px 0px 20px;
+    }
+
+    .perks-container .perk-simple-card .title {
+        /* font-size: 20px; */
+        padding-top: 51px;
+    }
+
+    .perks-container .perk-simple-card .description {
+        text-align: left;
+        /* font-size: 17px; */
+        line-height: 1.8em;
+        font-family: Roboto;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 10px 60px 100px 100px;
+    }
+
+    .perk-simple-card .perk-image {
+        width: 100%;
+        height: 72px;
+    }
+
+    .row.ecology {
+        padding: 160px 0px 160px 0px;
+        flex-direction: column-reverse;
+        padding: 160px 0px 160px 0px;
+    }
+
+    .ecology .world-image-wrapper {
+        text-align: center;
+    }
+
+    .ecology .world-image-wrapper img.world {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ecology .description-wrapper {
+        padding: 48px 8% 32px 8%;
+    }
+
+    .ecology .description h2 {
+        font-family: Roboto Bold;
+        font-weight: bold;
+        /* font-size: 25px; */
+        line-height: 48px;
+    }
+
+    .ecology .description p {
+        font-family: Roboto;
+        /* font-size: 17px; */
+        line-height: 30px;
+        font-weight: normal;
+        padding: 12px 0px;
+        text-align: center;
+    }
+
+    .app-download {
+        flex-direction: column;
+    }
+
+    .app-download .dummy-download-wrapper {
+        text-align: center;
+        padding-top: 156px;
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+        font-weight: bold;
+        color: #0f2a49;
+        text-align: center;
+        /* font-size: 29px; */
+        float: center;
+        padding-bottom: 54px;
+    }
+
+    .dummy-download {
+        width: 36%;
+        margin-top: 0;
+        float: none;
+    }
+
+    .app-download .pad-phone-wrapper {
+        text-align: center;
+    }
+
+    .app-download img.screen-demo {
+        padding: 120px 20px 0px 20px;
+        width: 84%;
+    }
+
+    .opinions-about-us .wrapper {
+        width: 80%;
+        height: 430px;
+        padding: 0;
+        margin: 0 auto;
+    }
+
+    .opinions-about-us h2 {
+        padding-bottom: 60px;
+    }
+
+    .opinions-about-us .wrapper .text-wrapper {
+
+        padding: 15% 10% 0px 8%;
+    }
+
+    .opinions-about-us .wrapper {
+        text-align: left;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position: top;
+    }
+
+    .opinions-about-us h2 {
+        /* font-size: 29px; */
+    }
+
+    .opinions-about-us .wrapper p.title {
+        /* font-size: 21px; */
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    .opinions-about-us .wrapper p.subtitle {
+        /* font-size: 16px; */
+        padding-top: 20px;
+    }
+
+    .opinions-about-us .wrapper p.description {
+        /* font-size: 13px; */
+        padding-top: 16px;
+    }
+
+    .notes {
+        margin: 0;
+        padding: 20px 0px 0px 0px;
+    }
+
+    .notes ul {
+        padding: 0px 30px;
+        list-style: none;
+        /* font-size: 13px; */
+    }
+
+    .opinions-about-us .selector {
+        width: auto;
+        height: 8px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+
+    #miniEspacio{
+        height: 72px;
+    }
+    
+    .visualiza-image {
+        width: 82%;
+        /* margin: 0 auto; */
+        margin-top: 20px;
+    }
+
+    .intro-container .description-wrapper {
+
+        /* padding: 174px 20px 0px 20px; */
+        text-align: left;
+    }
+
+    .description-wrapper #intro {
+        /* font-size: 44px; */
+        padding-bottom: 40px;
+    }
+
+    .intro-container .description-wrapper p {
+        /* font-size: 16px; */
+        text-align: center;
+        /* font-size: 1.3rem; Font adj*/
+    }
+
+    .intro-container .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .intro-container .buttons .button {
+        width: 180pt;
+        height: 50px;
+        margin-top: 23px;
+        /* font-size: 17px; */
+    }
+
+    .intro-container .screen-demo {
+        width: 100%;
+        padding-top: 52px;
+    }
+
+    .intro-container .screen-demo img {
+        width: 37%;
+        padding: 0px;
+    }
+
+    .record-perks {
+        padding-top: 50px;
+        padding-left: 24px;
+    }
+
+    .record-perk {
+        padding: 10px 0px;
+    }
+
+    .perk-icon {
+        width: 40px;
+        height: 28px;
+    }
+
+    .record-perks .record-perk-text-wrapper {
+        padding-left: 20px;
+    }
+
+    .medical-notes-wrapper {
+        padding-top: 40px;
+    }
+
+    .medical-notes-wrapper .medical-note-image-wrapper img {
+        width: 28px;
+    }
+
+    #notas-medicas,
+    .all-in-one-screen-title,
+    #notas-medicas,
+    .recetas-medicas-digitales,
+    #visualiza,
+    #certificacion {
+        /* font-size: 32px; */
+        color: #133454;
+        text-align: center;
+        padding-bottom: 0px;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture img {
+        width: 72%;
+        height: auto !important;
+        object-fit: contain;
+
+    }
+
+    .all-in-one-screen-wrapper .screen-capture {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+    .medical-notes-wrapper .medic-at-desktop {
+        text-align: center;
+
+    }
+
+    .medical-recipes-wrapper.st1 {
+        padding: 100px 0px 100px 0px;
+    }
+
+    .recipe-perks {
+        padding-left: 56px;
+        padding-right: 56px;
+    }
+
+    .recipe-perks .recipe-perk .text-wrapper {
+        padding-left: 30px;
+    }
+
+    .recipe-perk-image-wrapper img {
+        width: 40px;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 20px;
+        /* width: 70%; */
+    }
+
+    .medical-notes-wrapper .medic-at-desktop img {
+        width: 33%;
+        padding: 0 auto;
+    }
+
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 0px 30px 40px 60px;
+    }
+
+    .perk-simple-card .perk-image {
+        width: 100%;
+        height: 72px;
+    }
+
+    .perks-container .perk-card {
+        width: 336px;
+        height: 428px;
+        /* font-size: 0.8rem; */
+        margin: 28px 20px;
+    }
+
+    .perks-container .perk-card .title {
+        margin-bottom: 26px;
+        /* font-size: 24px; */
+        line-height: 40px;
+        padding-top: 16px;
+    }
+
+    .perks-container .perk-card .description {
+        padding: 0px 8px 0px 16px;
+    }
+
+    .perks-container .perk-card .wrapper {
+        padding: 74px 40px 0px 40px;
+    }
+
+    .perks-container .perk-simple-card .title {
+        /* font-size: 31px; */
+        padding-top: 51px;
+    }
+
+    .perks-container .perk-simple-card .description {
+        text-align: left;
+        /* font-size: 27px; */
+        line-height: 1.8em;
+        font-family: Roboto;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 10px 12px 100px 48px;
+    }
+
+    .row.ecology {
+        padding: 160px 0px 160px 0px;
+    }
+
+    .ecology .world-image-wrapper img.world {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ecology .description-wrapper {
+        padding: 72px 8% 48px 8%;
+    }
+
+    .ecology .description h2 {
+        font-family: Roboto Bold;
+        font-weight: bold;
+        /* font-size: 44px; */
+        line-height: 64px;
+    }
+
+    .ecology .description p {
+        font-family: Roboto;
+        /* font-size: 25px; */
+        line-height: 44px;
+        font-weight: normal;
+        padding: 20px 0px;
+        text-align: left;
+    }
+
+    .app-download .dummy-download-wrapper .dummy-download {
+        width: 36%;
+        float: none;
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+
+        /* font-size: 48px; */
+        padding-bottom: 54px;
+    }
+
+    .opinions-about-us .wrapper {
+        width: auto;
+        height: 480px;
+        padding: 0;
+    }
+
+    .opinions-about-us .wrapper .text-wrapper {
+
+        padding: 160px 18% 0px 18%;
+    }
+
+    .opinions-about-us .wrapper p.title {
+        /* font-size: 33px; */
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    .opinions-about-us .wrapper p.subtitle {
+        /* font-size: 25px; */
+        padding-top: 20px;
+    }
+
+    .opinions-about-us .wrapper p.description {
+        /* font-size: 21px; */
+        padding-top: 16px;
+    }
+
+    .notes {
+        margin: 0;
+        padding: 170px 0px 0px 0px;
+    }
+
+    .notes ul {
+        padding: 0px 54px;
+        list-style: none;
+        /* font-size: 16px; */
+    }
+
+    .opinions-about-us .selector {
+        width: auto;
+        height: 12px;
+    }
+
+
+    .opinions-about-us h2 {
+        /* font-size: 37px; */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .visualiza-image {
+        width: 90%;
+        /* margin: 0 auto; */
+        margin-top: 54px;
+    }
+
+    .record-perk-description, .medical-note-description, .all-in-one-screen-description, .recipe-perk-description, .certifications,  .notes li {
+        font-family: Roboto;
+        font-size: 14px;
+    }
+
+    .intro-container .description-wrapper {
+
+    /*     padding: 180px 20px 0px 20px; */
+        text-align: left;
+    }
+
+    .description-wrapper #intro {
+        /* font-size: 68px; */
+        padding-bottom: 40px;
+    }
+
+    .intro-container .description-wrapper p {
+        /* font-size: 18px; */
+        padding: 0px 60px;
+        /* font-size: 1.3rem; Font adj*/
+    }
+
+    .intro-container .buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+    }
+
+    .intro-container .buttons .button {
+        width: 180pt;
+        height: 50px;
+        margin-top: 23px;
+        /* font-size: 17px; */
+    }
+
+    .intro-container .screen-demo {
+        width: 100%;
+        padding-top: 60px;
+    }
+
+    .intro-container .screen-demo img {
+        width: 26%;
+        padding: 0px;
+    }
+
+    .record-perks {
+        padding-top: 60px;
+        padding-left: 36px;
+    }
+
+    .record-perk {
+        padding: 12px 0px;
+    }
+
+    .perk-icon {
+        width: 40px;
+        height: 32px;
+    }
+
+    .record-perks .record-perk-text-wrapper {
+        padding-left: 24px;
+    }
+
+
+    .medical-notes-wrapper {
+        padding-top: 40px;
+    }
+
+    .flex-card-text-wrapper {
+        margin-left: 22px;
+    }
+
+    .medical-notes-wrapper .medical-note-image-wrapper img {
+        width: 32px;
+    }
+
+
+    .all-in-one-screen-wrapper .screen-capture img {
+        width: 72%;
+        height: auto !important;
+        object-fit: contain;
+
+    }
+
+    .all-in-one-screen-wrapper .screen-capture {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+
+    .medical-notes-wrapper .medic-at-desktop {
+        text-align: center;
+
+    }
+
+    .medical-recipes-wrapper.st1 {
+        padding: 160px 0px 160px 0px;
+    }
+
+    .recipe-perks {
+        padding-left: 60px;
+    }
+
+    .recipe-perks .recipe-perk .text-wrapper {
+        padding-left: 30px;
+    }
+
+    .recipe-perk-image-wrapper img {
+        width: 48px;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 20px;
+        /* width: 70%; */
+    }
+
+    .medical-notes-wrapper .medic-at-desktop img {
+        width: 28%;
+        /* padding-top: 30px; */
+    }
+
+    #beneficios {
+        padding-top: 0px;
+        margin: 0;
+    }
+
+    .perk-simple-card .perk-image {
+        width: 60%;
+        height: 78px;
+    }
+
+    .perks-container .perk-card {
+        width: 300px;
+        height: 380px;
+        /* font-size: 0.8rem; */
+        margin: 12px 24px;
+    }
+
+
+
+    .perks-container .perk-card .title {
+        margin-bottom: 26px;
+        /* font-size: 22px; */
+        line-height: 27px;
+        padding-top: 0px;
+    }
+
+    .perks-container .perk-card .description {
+        padding: 0px 8px 0px 16px;
+    }
+
+
+    .perks-container .perk-card .wrapper {
+        padding: 92px 32px 0px 32px;
+    }
+
+    .perks-container .perk-simple-card .title {
+        /* font-size: 31px; */
+        padding-top: 51px;
+    }
+
+    .perks-container .perk-simple-card .description {
+        text-align: left;
+        /* font-size: 27px; */
+        line-height: 1.8em;
+        font-family: Roboto;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 10px 60px 100px 100px;
+    }
+
+    .row.ecology {
+        padding: 160px 0px 160px 0px;
+    }
+
+    .ecology .world-image-wrapper {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .ecology .world-image-wrapper img.world {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ecology .description-wrapper {
+        padding: 100px 8% 76px 8%;
+    }
+
+    .ecology .description h2 {
+        font-family: Roboto Bold;
+        font-weight: bold;
+        /* font-size: 49px; */
+        line-height: 64px;
+    }
+
+    .ecology .description p {
+        font-family: Roboto;
+        /* font-size: 29px; */
+        line-height: 44px;
+        font-weight: normal;
+        padding: 20px 0px;
+        text-align: left;
+
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+
+        /* font-size: 73px; */
+        float: center;
+        padding-bottom: 54px;
+    }
+
+    .opinions-about-us .wrapper {
+        width: auto;
+        height: 534px;
+        padding: 0;
+    }
+
+    .opinions-about-us .wrapper .text-wrapper {
+        padding: 160px 224px 0px 224px;
+    }
+
+    .opinions-about-us .wrapper p.title {
+        /* font-size: 33px; */
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    .opinions-about-us .wrapper p.subtitle {
+        /* font-size: 25px; */
+        padding-top: 20px;
+    }
+
+    .opinions-about-us .wrapper p.description {
+        /* font-size: 24px; */
+        padding-top: 18px;
+    }
+
+    .opinions-about-us h2 {
+        /* font-size: 47px; */
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .perks-container .perk-simple-card .title {
+        /* font-size: 31px; */
+        padding-top: 51px;
+    }
+    .verticalcenter {
+        align-items: baseline;
+    }
+    .perks-container .perk-card {
+        width: 300px;
+        height: 380px;
+        /* font-size: 0.8rem; */
+        margin: 12px 90px;
+    }
+
+    .record-perks {
+        padding-top: 0px;
+        padding-left: 0px;
+        padding-right: 0;
+    }
+
+    .record-perk {
+        padding: 8px 0px;
+    }
+
+    .perk-icon {
+        padding-top: 6px;
+        width: 42px;
+        height: 40px;
+    }
+
+    .record-perks .record-perk-text-wrapper {
+        padding-left: 16px;
+    }
+
+    .medical-recipes-wrapper img {
+        width: 90%;
+    }
+   
+
+    .medical-notes-wrapper {
+        padding-top: 40px;
+    }
+
+    .medical-notes-wrapper .medical-note-image-wrapper img {
+        width: 36px;
+    }
+
+    .flex-card-text-wrapper {
+        margin-left: 18px;
+    }
+
+    .flex-list-wrapper {
+        margin-top: 24px;
+        padding-left: 0%;
+    }
+
+  
+    .all-in-one-screen-wrapper .screen-capture img {
+        width: 72%;
+        height: auto !important;
+        object-fit: contain;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+
+    .medical-notes-wrapper .medic-at-desktop {
+        text-align: right;
+
+    }
+
+    .medical-recipes-wrapper.st1 {
+        padding: 180px 0px 180px 0px;
+    }
+
+    .recipe-perks {
+        padding-left: 12px;
+        padding-top: 0px;
+        padding-right: 0px;
+    }
+
+    .recipe-perks .recipe-perk .text-wrapper {
+        padding-left: 20px;
+    }
+
+    .recipe-perk-image-wrapper img {
+        width: 48px;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 12px;
+        /* width: 70%; */
+    }
+
+    .medical-notes-wrapper .medic-at-desktop img {
+        width: 60%;
+    }
+
+    .perks-container .perk-simple-card .description {
+        text-align: left;
+        /* font-size: 27px; */
+        line-height: 1.8em;
+        font-family: Roboto;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 10px 46px 100px 64px;
+    }
+
+    .ecology .description h2 {
+        font-family: Roboto Bold;
+        font-weight: bold;
+
+        /* font-size: 45px; */
+        line-height: 64px;
+    }
+
+    .ecology .description p {
+        font-family: Roboto;
+        /* font-size: 27px; */
+        line-height: 44px;
+        font-weight: normal;
+        padding: 20px 0px;
+        text-align: left;
+    }
+
+    .row.ecology {
+        padding: 160px 0px 160px 0px;
+        flex-direction: row;
+        padding: 160px 0px 160px 0px;
+    }
+
+    .ecology .description-wrapper {
+        padding: 20px 2% 20px 5%;
+    }
+
+    .app-download {
+        text-align: center;
+        padding-top: 240px;
+        padding-bottom: 120px;
+        flex-direction: row;
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+        float: none;
+        font-size: 85px;
+    }
+
+    .app-download .dummy-download-wrapper .dummy-download {
+        width: 40%;
+        float: none;
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+        /* font-size: 73px; */
+        padding-bottom: 54px;
+    }
+
+    .app-download img.screen-demo {
+        width: 100%;
+    }
+
+    .app-download .separator {
+        border: solid 1px #0f2a49;
+        margin: 140px 0px;
+    }
+
+    .opinions-about-us .wrapper {
+        width: auto;
+        height: 534px;
+        padding: 0;
+    }
+
+    .opinions-about-us .wrapper .text-wrapper {
+        padding: 160px 26px 0px 26px;
+    }
+
+    .opinions-about-us .wrapper p.title {
+        /* font-size: 32px; */
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    .opinions-about-us .wrapper p.subtitle {
+        /* font-size: 25px; */
+        padding-top: 20px;
+    }
+
+    .opinions-about-us .wrapper p.description {
+        /* font-size: 16px; */
+        padding-top: 16px;
+    }
+
+    .opinions-about-us h2 {
+        /* font-size: 49px; */
+    }
+}
+
+@media screen and (min-width: 1300px) {
+    .intro-container {
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(180deg, rgba(33, 87, 121, 1) 35%, rgb(184, 211, 228) 95%, rgba(255, 255, 255, 1) 100%);
+        padding-bottom: 44px;
+    }
+
+    .intro-container .description-wrapper {
+
+ /*        padding: 180px 20px 0px 6%; */
+        text-align: left;
+    }
+
+    .intro-container .description-wrapper p {
+
+        padding: 0px 0px;
+        /* font-size: 1.3rem; Font adj*/
+    }
+
+    .intro-container .buttons {
+        display: flex;
+        flex-direction: row;
+        padding: 80px 0px 0px 0px;
+    }
+
+    .intro-container .screen-demo {
+        flex: 0 0 50%;
+        margin: 0;
+        padding-top: 53px;
+    }
+
+    .description-wrapper #intro {
+        /* font-size: 44px; */
+        margin-left: 0%;
+        padding-bottom: 10px;
+    }
+
+
+    .intro-container .screen-demo img {
+        /* width: 44%; */
+    }
+
+    .intro-container .buttons {
+        display: flex;
+        padding: 80px 0px 0px 0px;
+    }
+
+    .intro-container .buttons .button {
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 210pt;
+        height: 55px;
+        margin-top: 17px;
+        /* font-size: 20px; */
+    }
+
+    .record-perks {
+        padding-top: 60px;
+        padding-left: 0px;
+    }
+
+    .record-perk {
+        padding: 12px 0px;
+    }
+
+    .perk-icon {
+        width: 54px;
+        height: 48px;
+    }
+
+    .record-perks .record-perk-text-wrapper {
+        padding-left: 24px;
+    }
+
+
+   
+    .medical-notes-wrapper {
+        padding-top: 44px;
+    }
+
+    .medical-notes-wrapper .medical-note-image-wrapper img {
+        width: 44px;
+    }
+
+
+    .all-in-one-screen-wrapper .screen-capture img {
+        width: 72%;
+        height: auto !important;
+        object-fit: contain;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+    .medical-notes-wrapper .medic-at-desktop {
+        text-align: center;
+
+    }
+
+    .medical-recipes-wrapper.st1 {
+        padding: 160px 0px 160px 0px;
+    }
+
+    .recipe-perks {
+        padding-left: 24px;
+    }
+
+    .recipe-perks .recipe-perk .text-wrapper {
+        padding-left: 24px;
+    }
+
+    .recipe-perk-image-wrapper img {
+        width: 51px;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 24px;
+        /* width: 70%; */
+    }
+
+    .medical-notes-wrapper .medic-at-desktop img {
+        width: 60%;
+    }
+
+    .perks-container .perk-card {
+        width: 270px;
+        height: 330px;
+        /* font-size: 0.8rem; */
+        margin: 12px 25px;
+
+    }
+
+    .perks-container .perk-card .title {
+        margin-bottom: 5px;
+        /* font-size: 22px; */
+        line-height: 26px;
+        padding-top: 0px;
+    }
+
+    .perks-container .perk-card .description {
+        /* font-size: 15px; */
+        padding: 0px 8px 0px 20px;
+        line-height: 1.35;
+    }
+
+
+
+
+    .perks-container .perk-card .wrapper {
+        padding: 75px 32px 0px 32px;
+    }
+
+    .perk-simple-card .perk-image {
+        width: 50%;
+        height: 80px;
+    }
+
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 0px 60px 80px 100px;
+    }
+
+    .perks-container .perk-simple-card .title {
+        /* font-size: 31px; */
+        padding-top: 51px;
+    }
+
+    .perks-container .perk-simple-card .description {
+        text-align: left;
+        /* font-size: 27px; */
+        line-height: 1.8em;
+        font-family: Roboto;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 10px 30px 100px 54px;
+    }
+
+    .ecology .world-image-wrapper {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .ecology .world-image-wrapper img.world {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .row.ecology {
+        padding: 160px 0px 160px 0px;
+    }
+
+    .ecology .description h2 {
+        font-family: Roboto Bold;
+        font-weight: bold;
+
+        /* font-size: 45px; */
+        line-height: 64px;
+    }
+
+    .ecology .description p {
+        font-family: Roboto;
+        /* font-size: 27px; */
+        line-height: 44px;
+        font-weight: normal;
+        padding: 20px 0px;
+        text-align: left;
+    }
+
+    .ecology .description-wrapper {
+        padding: 20px 2% 20px 5%;
+    }
+
+    .app-download img.screen-demo {
+        width: 100%;
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+        /* font-size: 80px; */
+        padding-bottom: 54px;
+    }
+
+    .opinions-about-us .wrapper .text-wrapper {
+        padding: 160px 44px 0px 44px;
+    }
+
+    .opinions-about-us .wrapper p.title {
+        /* font-size: 32px; */
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    .opinions-about-us .wrapper p.subtitle {
+        /* font-size: 25px; */
+        padding-top: 20px;
+    }
+
+    .opinions-about-us .wrapper p.description {
+        /* font-size: 19px; */
+        padding-top: 16px;
+    }
+
+    .opinions-about-us h2 {
+        /* font-size: 49px; */
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .intro-container {
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(180deg, rgba(33, 87, 121, 1) 35%, rgb(156, 205, 236) 95%, rgba(255, 255, 255, 1) 100%);
+        padding-bottom: 160px;
+    }
+
+    .intro-container .description-wrapper p {
+        /* font-size: 20px; */
+        /* font-size: 1.3rem; Font adj*/
+    }
+
+    .intro-container .description-wrapper {
+        padding: 180px 20px 0px 6%;
+        text-align: left;
+    }
+
+    .intro-container .screen-demo {
+        padding-top: 64px;
+    }
+
+    .intro-container .buttons {
+        display: flex;
+        padding: 90px 20px 0px 20px;
+    }
+
+    .intro-container .buttons .button {
+        margin-right: 2%;
+        margin-left: 2%;
+        width: 240pt;
+        height: 65px;
+        margin-top: 18px;
+        /* font-size: 24px; */
+    }
+
+    .record-perks {
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+
+    .perk-icon {
+        width: 64px;
+        height: 54px;
+    }
+
+    .record-perk {
+        padding: 14px 0px;
+    }
+
+    .record-perks .record-perk-text-wrapper {
+        padding-left: 24px;
+    }
+
+    .medical-notes-wrapper {
+        padding-top: 100px;
+    }
+
+    .medical-notes-wrapper .medical-note-image-wrapper img {
+        width: 50px;
+    }
+
+    
+
+    .all-in-one-screen-wrapper .screen-capture img {
+        width: 72%;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+    .medical-notes-wrapper .medic-at-desktop {
+        text-align: center;
+
+    }
+
+    .medical-recipes-wrapper.st1 {
+        padding: 160px 0px 160px 0px;
+    }
+
+    .recipe-perks {
+        padding-left: 36px;
+    }
+
+    .recipe-perks .recipe-perk .text-wrapper {
+        padding-left: 30px;
+    }
+
+    .recipe-perk-image-wrapper img {
+        width: 56px;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 24px;
+        /* width: 70%; */
+    }
+
+    .medical-notes-wrapper .medic-at-desktop img {
+        width: 60%;
+    }
+
+    .description-wrapper #intro {
+        /* font-size: 48px; */
+        padding-bottom: 28px;
+    }
+
+
+    .perk-simple-card .perk-image {
+        width: 50%;
+        height: 100px;
+    }
+
+
+    .ecology .world-image-wrapper img.world {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .row.ecology {
+        padding: 180px 0px 180px 0px;
+    }
+
+    .perks-container .perk-simple-card .title {
+        /* font-size: 31px; */
+        padding-top: 51px;
+    }
+
+    .perks-container .perk-simple-card .description {
+        text-align: left;
+        /* font-size: 27px; */
+        line-height: 1.8em;
+        font-family: Roboto;
+    }
+
+    .perks-container div.perk-simple-card {
+        margin: 0;
+        padding: 10px 60px 100px 100px;
+    }
+
+    .ecology .world-image-wrapper img.world {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ecology .world-image-wrapper {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .ecology .description h2 {
+        font-family: Roboto Bold;
+        font-weight: bold;
+        /* font-size: 48px; */
+        line-height: 64px;
+    }
+
+    .ecology .description p {
+        font-family: Roboto;
+        /* font-size: 30px; */
+        line-height: 44px;
+        font-weight: normal;
+        padding: 20px 0px;
+        text-align: left;
+    }
+
+    .ecology .description-wrapper {
+        padding: 20px 2% 20px 6%;
+    }
+
+    .app-download {
+        text-align: center;
+        padding-top: 312px;
+        padding-bottom: 160px;
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+        float: none;
+        /* font-size: 93px; */
+    }
+
+    .opinions-about-us .wrapper .text-wrapper {
+        padding: 160px 100px 0px 100px;
+    }
+
+    .opinions-about-us .wrapper p.title {
+        /* font-size: 35px; */
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    .opinions-about-us .wrapper p.subtitle {
+        /* font-size: 28px; */
+        padding-top: 20px;
+    }
+
+    .opinions-about-us .wrapper p.description {
+        /* font-size: 21px; */
+        padding-top: 16px;
+    }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+    .intro-container {
+        text-align: center;
+        color: #fff;
+        background: linear-gradient(180deg, rgba(33, 87, 121, 1) 35%, rgb(156, 205, 236) 95%, rgba(255, 255, 255, 1) 100%);
+        padding-bottom: 160px;
+    }
+
+    .intro-container .description-wrapper {
+        padding: 180px 20px 0px 6%;
+        text-align: left;
+    }
+
+    .description-wrapper #intro {
+        /* font-size: 54px; */
+        padding-bottom: 32px;
+    }
+
+    .intro-container .description-wrapper p {
+
+        /* font-size: 24px; */
+        /* font-size: 1.3rem; Font adj*/
+    }
+
+    .intro-container .description-wrapper .pl-0 {
+        padding-left: 15px;
+    }
+
+    .intro-container .buttons {
+        display: flex;
+        padding: 100px 20px 0px 20px;
+    }
+
+    .intro-container .buttons .button {
+        margin-right: 4%;
+        margin-left: 4%;
+        width: 260pt;
+        height: 70px;
+        margin-top: 18px;
+        font-size: 27px;
+    }
+
+    .intro-container .screen-demo {
+        margin: 0;
+        padding-top: 67px;
+    }
+
+    .intro-container .screen-demo img {
+        width: 20%;
+    }
+
+    .perk-icon {
+        width: 78px;
+        height: 64px;
+    }
+
+    .record-perks {
+        padding-top: 160px;
+        padding-left: 60px;
+    }
+
+    .record-perk {
+        padding: 18px 0px;
+    }
+
+    .record-perks .record-perk-text-wrapper {
+        padding-left: 32px;
+    }
+
+    
+
+    .medical-notes-wrapper {
+        padding-top: 100px;
+    }
+
+    .medical-notes-wrapper .medical-note-image-wrapper img {
+        width: 60px;
+    }
+
+   
+
+    .all-in-one-screen-wrapper .screen-capture img {
+        width: 72%;
+    }
+
+    .all-in-one-screen-wrapper .screen-capture {
+        padding-top: 80px;
+        text-align: center;
+    }
+
+    .medical-notes-wrapper .row:first-child {
+        position: relative;
+    }
+
+    .medical-notes-wrapper .medic-at-desktop {
+        text-align: center;
+
+    }
+
+    .medical-recipes-wrapper.st1 {
+        padding: 240px 0px 240px 0px;
+    }
+
+    .recipe-perks {
+        padding-left: 36px;
+        padding-top: 100px;
+    }
+
+    .recipe-perks .recipe-perk .text-wrapper {
+        padding-left: 60px;
+    }
+
+    .recipe-perk-image-wrapper img {
+        width: 72px;
+    }
+
+    .recipe-perk-image-wrapper img path {
+        fill: #F00;
+    }
+
+    .recipe-perk {
+        display: flex;
+        margin-bottom: 32px;
+        /* width: 70%; */
+    }
+
+    .medical-notes-wrapper .medic-at-desktop img {
+        width: 55%;
+    }
+
+    .perks-container .cards {
+        margin: 0 12.5%;
+    }
+
+
+    .perks-container .perk-card {
+        width: 360px;
+        height: 456px;
+        font-size: 0.8rem;
+        margin: 0px 32px;
+    }
+
+
+    .perks-container .perk-card .title {
+        margin-bottom: 14px;
+        /* font-size: 26px; */
+        line-height: 36px;
+        padding-top: 16px;
+    }
+
+    .perks-container .perk-card .description {
+        /* font-size: 18px; */
+        padding: 0px 8px 0px 16px;
+        line-height: 1.5;
+    }
+
+    .perks-container .perk-card .wrapper {
+        padding: 93px 40px 0px 40px;
+    }
+
+    .ecology .world-image-wrapper img.world {
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .ecology .description h2 {
+        font-family: Roboto Bold;
+        font-weight: bold;
+        /* font-size: 51px; */
+        line-height: 64px;
+        padding: 10px 0px;
+    }
+
+    .ecology .description p {
+        font-family: Roboto;
+        /* font-size: 30px; */
+        line-height: 44px;
+        font-weight: normal;
+        padding: 20px 0px;
+        text-align: left;
+    }
+
+    .row.ecology {
+        padding: 270px 0px 180px 0px;
+    }
+
+    .ecology .description {
+        padding: 0px 20px;
+    }
+
+    .about-us-contract {
+        padding-top: 120px;
+        height: 660px;
+        margin-bottom: 60px;
+    }
+
+    .perk-simple-card .perk-image {
+        width: 50%;
+        height: 120px;
+    }
+
+    .perks-container .perk-simple-card .title {
+        /* font-size: 33px; */
+        padding-top: 51px;
+    }
+
+    .perks-container .perk-simple-card .description {
+        text-align: left;
+        /* font-size: 29px; */
+        line-height: 1.8em;
+        font-family: Roboto;
+    }
+
+    .perks-container div.perk-simple-card {
+        color: black;
+        text-align: left;
+        padding: 10px 80px 100px 120px
+    }
+
+    .perks-container .simple-cards-wrapper {
+        padding: 10px 10px;
+        display: contents;
+    }
+
+    .ecology .description-wrapper {
+        padding: 20px 9% 20px 16%;
+
+    }
+
+    .ecology .world-image-wrapper {
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    .app-download .dummy-download-wrapper h2 {
+        /* font-size: 85px; */
+        padding-bottom: 54px;
+    }
+
+    .opinions-about-us .wrapper {
+        width: auto;
+        height: 534px;
+        padding: 0;
+    }
+
+    .opinions-about-us .wrapper .text-wrapper {
+        padding: 144px 22% 0px 22%;
+    }
+
+    .opinions-about-us .wrapper p.title {
+        /* font-size: 37px; */
+        font-weight: bold;
+        text-shadow: none;
+    }
+
+    .opinions-about-us .wrapper p.subtitle {
+        /* font-size: 28px; */
+        padding-top: 20px;
+    }
+
+    .opinions-about-us .wrapper p.description {
+        /* font-size: 21px; */
+        padding-top: 25px;
+    }
+
+    .notes {
+        margin: 0;
+        padding: 48px 0px 0px 0px;
+    }
+
+    .notes ul {
+        padding: 0px 160px;
+        list-style: none;
+        /* font-size: 16px; */
+    }
+
+    .opinions-about-us .selector {
+        width: auto;
+        height: 18px;
+    }
+
+    .opinions-about-us h2 {
+        /* font-size: 52px; */
+    }
+}
+
+div.opinions-about-us {
+    padding-top: 148px;
+}
+
+p.know-more:hover {
+    cursor: pointer;
+}
+
+.opinions-about-us h2 {
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.description-wrapper #intro {
+    font-weight: bold;
+    text-align: center;
+}
+
+.intro-container .description-wrapper p {
+    font-family: Roboto;
+    font-family: Roboto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.description-wrapper.nopaddingtop {
+    padding-top: 50px;
+}
+
+.record-perk {
+    display: flex;
+}
+
+.record-perk .perk-icon-background {
+    fill: #D2E2F4;
+}
+
+.record-perk:hover .perk-icon-background {
+    fill: rgba(236,245,245, 1);
+}
+
+.record-perk .perk-icon-background2 {
+    fill: #D2E2F4;
+}
+
+.record-perk:hover .perk-icon-background2{
+    fill: rgba(219,232,246, 1);
+}
+
+.record-perk .perk-icon-background3 {
+    fill: #D2E2F4;
+}
+
+.record-perk:hover .perk-icon-background3{
+    fill: rgba(166,205,238, 1);
+}
+
+.record-perk .perk-icon-background4 {
+    fill: #D2E2F4;
+}
+
+.record-perk:hover .perk-icon-background4{
+    fill: rgba(243,243,214, 1);
+}
+
+.white {
+    color: white;
+}
+
+.verticalcenter {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.perks-container .perk-card .wrapper {
+    overflow: auto;
+}
+
+@media screen and (min-width:1900px){
+    .flex-list-wrapper {
+        margin-top: 190px;
+        padding-left: 0%;
+    }
+}

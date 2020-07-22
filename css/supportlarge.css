@@ -1,0 +1,1137 @@
+@font-face {
+    font-family: "Roboto Bold";
+    src: url("Fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Black";
+    src: url("Fonts/Roboto-Black.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium";
+    src: url("Fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Roboto Medium Italic";
+    src: url("Fonts/Roboto-MediumItalic.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("Fonts/Roboto-Regular.ttf");
+}
+
+h2.logo-title {
+    font-family: "Roboto";
+    color: white;
+}
+
+h2.left-title-intro {
+    font-family: "Roboto Bold";
+    color: #133454;
+}
+
+h3.left-description-intro {
+    font-family: "Roboto";
+    color: #666666;
+}
+
+h3.right-title-intro {
+    font-family: "Roboto";
+    color: #133454;
+}
+
+ul.right-list-intro li a {
+    font-family: "Roboto";
+    color: #0073CE;
+}
+
+h2.left-title {
+    font-family: "Roboto Bold";
+    color: #133454;
+}
+
+h3.right-title {
+    font-family: "Roboto";
+    color: #133454;
+}
+
+p.right-description {
+    font-family: "Roboto";
+    color: #666666;
+}
+
+h4.right-subtitle {
+    font-family: "Roboto Bold";
+    color: #666666;
+}
+
+ul.right-list li {
+    font-family: "Roboto";
+    color: #666666;
+}
+
+.intro-container .title-wrapper {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(33, 87, 121, 1) 57%, rgba(67, 115, 145, .8) 96%,rgba(255, 255,255,0) 100%);
+}
+
+.container-fluid {
+    padding: 0pt;
+}
+
+.intro-container .logo-title {
+    padding-left: 48px;
+    padding-top: 82px;
+    padding-bottom: 24px;
+}
+
+.panel-group {
+    padding-left: 20px;
+}
+
+.intro-container.support .logo-title {
+    padding-bottom: 45px;
+    padding-left: 235px;
+    padding-top: 145px;
+
+}
+
+.intro-container.support .description-wrapper #intro {
+    padding-left: 80px;
+    padding-top: 0px;
+}
+@media screen and (min-width: 320px) {
+    /* collapse */
+
+    .row.support-content {
+        display: block;
+        width: 100%;
+    }
+
+    h2.logo-title {
+        /* font-size: 20px; */
+    }
+
+    /* .description-left {
+        position: absolute;
+        width: 100%;
+    } */
+    .intro-container .logo-title {
+        padding-left: 12px;
+        padding-top: 50px;
+        padding-bottom: 4px;
+    }
+
+    .intro-container.support {
+        padding-top: 120px;
+    }
+
+    h2.left-title-intro {
+        font-size: 32px;
+    }
+
+    h3.left-description-intro {
+        font-size: 14px;
+        padding-left: 0;
+        padding-top: 20px;
+        line-height: 30px;
+    }
+
+    h3.right-title-intro {
+        font-size: 16px;
+    }
+
+    ul.right-list-intro li a {
+        font-size: 14px;
+    }
+
+    h2.left-title {
+        font-size: 24px;
+        /* text-align: center; */
+    }
+
+    h3.right-title {
+        font-size: 16px;
+    }
+
+    p.right-description {
+        line-height: 26px;
+    }
+
+    p.right-description,
+    .description-right ul li,
+    ul.right-list li {
+        font-size: 14px;
+        /* padding-top: 6px; */
+    }
+
+    .description-right ul li,
+    ul.right-list li {
+        /* font-size: 17px; */
+        padding-top: 10px;
+    }
+
+    h4.right-subtitle {
+        font-size: 16px;
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .description-left {
+        padding: 0px 9% 0px 9%;
+    }
+
+    .separator {
+        border-bottom: 1.5px solid #133454;
+        margin: 20px 5.5% 10px 5.5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .support-content .left-title {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .support-content {
+        padding-top: 32px;
+    }
+
+    .support-content .right-title {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        font-family: Roboto bold;
+    }
+
+    .description-right {
+        padding: 12px 9% 0px 9%;
+    }
+
+    .intro-container.support .description-right {
+        display: none;
+    }
+
+    .intro-container.support .description-left {
+        padding-right: 9%;
+    }
+
+    .panel-group ul li a {
+        /* font-size: 14px; */
+
+    }
+
+    #collapse1 ul {
+        padding-top: 8px;
+    }
+
+    .panel-group ul li {
+        padding: 0px 0px 8px 0px;
+    }
+
+    .plus-icon-wrapper {
+        display: inline-block;
+        /* font-size: 18px; */
+    }
+}
+@media screen and (min-width: 425px) {
+    /* collapse */
+
+    .row.support-content {
+        display: block;
+        width: 100%;
+    }
+
+    h2.logo-title {
+        /* font-size: 21px; */
+    }
+
+    /* .description-left {
+        position: absolute;
+        width: 100%;
+    } */
+    .intro-container .logo-title {
+        padding-left: 24px;
+    padding-top: 54px;
+    padding-bottom: 4px;
+    }
+
+    .intro-container.support {
+        padding-top: 136px;
+    }
+
+    h2.left-title-intro {
+        /* font-size: 20px; */
+    }
+
+    h3.left-description-intro {
+        /* font-size: 14px; */
+        padding-left: 0;
+        padding-top: 20px;
+        line-height: 24px;
+    }
+
+    h3.right-title-intro {
+        /* font-size: 53px; */
+    }
+
+    ul.right-list-intro li a {
+        /* font-size: 27px; */
+    }
+
+    h2.left-title {
+        /* font-size: 20px; */
+        /* text-align: center; */
+    }
+
+    h3.right-title {
+        /* font-size: 17px; */
+    }
+
+    p.right-description {
+        line-height: 26px;
+    }
+
+    p.right-description,
+    .description-right ul li,
+    ul.right-list li {
+        /* font-size: 14px; */
+        padding-top: 15px;
+    }
+
+    .description-right ul li,
+    ul.right-list li {
+        /* font-size: 17px; */
+        padding-top: 10px;
+    }
+
+    h4.right-subtitle {
+        /* font-size: 17px; */
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .description-left {
+        padding: 0px 9% 0px 9%;
+    }
+
+    .separator {
+        border-bottom: 1.5px solid #133454;
+        margin: 32px 5.5% 10px 5.5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .support-content .left-title {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .support-content {
+        padding-top: 32px;
+    }
+
+    .support-content .right-title {
+        padding-top: 16px;
+        padding-bottom: 0px;
+        font-family: Roboto bold;
+    }
+
+    .description-right {
+        padding: 12px 9% 0px 9%;
+    }
+
+    .intro-container.support .description-right {
+        display: none;
+    }
+
+    .intro-container.support .description-left {
+        padding-right: 9%;
+    }
+
+    .panel-group ul li a {
+        /* font-size: 15px; */
+
+    }
+
+    #collapse1 ul {
+        padding-top: 12px;
+    }
+
+    .panel-group ul li {
+        padding: 0px 0px 10px 0px;
+    }
+
+    .plus-icon-wrapper {
+        display: inline-block;
+    }
+    .panel-group {
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    h2.logo-title {
+        /* font-size: 24px; */
+    }
+
+    .intro-container.support {
+        padding-top: 160px;
+    }
+
+    p.right-description {
+        line-height: 26px;
+    }
+
+    h2.left-title-intro {
+        /* font-size: 24px; */
+    }
+
+    h3.left-description-intro {
+        /* font-size: 16px; */
+        padding-left: 0;
+        padding-top: 24px;
+        line-height: 26px;
+    }
+
+    h3.right-title-intro {
+        /* font-size: 53px; */
+    }
+
+    ul.right-list-intro li a {
+        /* font-size: 27px; */
+    }
+
+    h2.left-title {
+        /* font-size: 24px; */
+        /* text-align: center; */
+    }
+
+    h3.right-title {
+        /* font-size: 22px; */
+    }
+
+    p.right-description,
+    .description-right ul li,
+    ul.right-list li {
+        /* font-size: 16px; */
+        padding-top: 10px;
+    }
+
+    h4.right-subtitle {
+        /* font-size: 20px; */
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .description-left {
+        padding: 0px 7% 0px 7%;
+    }
+
+    .separator {
+        border-bottom: 1.5px solid #133454;
+        margin: 36px 7% 10px 7%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .support-content .left-title {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .support-content {
+        padding-top: 32px;
+    }
+
+    .support-content .right-title {
+        padding-top: 16px;
+        padding-bottom: 0px;
+        font-family: Roboto bold;
+    }
+
+    .description-right {
+        padding: 34px 7% 0px 7%;
+    }
+
+    .intro-container.support .description-left {
+        padding-right: 7%;
+    }
+
+    .panel-group ul li a {
+        /* font-size: 16px; */
+
+    }
+
+    #collapse1 ul {
+        padding-top: 18px;
+    }
+
+    .panel-group ul li {
+        padding: 0px 0px 14px 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    h2.logo-title {
+        /* font-size: 26px; */
+    }
+
+    .intro-container .logo-title {
+        padding-left: 36px;
+        padding-top: 54px;
+        padding-bottom: 6px;
+    }
+
+    .panel-group {
+        padding-left: 48px;
+    }
+
+    .intro-container.support {
+        padding-top: 180px;
+    }
+
+    h2.left-title-intro {
+        /* font-size: 30px; */
+    }
+
+    h3.left-description-intro {
+        /* font-size: 18px; */
+    padding-left: 0;
+    padding-top: 28px;
+    line-height: 28px;
+    }
+
+    h3.right-title-intro {
+        /* font-size: 28px; */
+    }
+
+    ul.right-list-intro {
+        padding-left: 14px;
+        padding-top: 8px;
+    }
+
+    ul.right-list-intro li a {
+        /* font-size: 18px; */
+    }
+
+    h2.left-title {
+        /* font-size: 30px; */
+        /* text-align: center; */
+    }
+
+    h3.right-title {
+        /* font-size: 24px; */
+    }
+
+    p.right-description {
+        line-height: 30px;
+    }
+
+    p.right-description,
+    .description-right ul li,
+    ul.right-list li {
+        /* font-size: 18px; */
+        padding-top: 10px;
+    }
+
+    h4.right-subtitle {
+        /* font-size: 21px; */
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .description-left {
+        padding: 0px 7% 0px 7%;
+    }
+
+    .separator {
+        border-bottom: 1.5px solid #133454;
+        margin: 54px 7% 10px 7%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .support-content .left-title {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .support-content {
+        padding-top: 36px;
+    }
+
+    .support-content .right-title {
+        padding-top: 16px;
+        padding-bottom: px;
+        font-family: Roboto bold;
+    }
+
+    .description-right {
+        padding: 8px 7% 0px 7%;
+    }
+
+    .panel-group ul li a {
+        /* font-size: 18px; */
+
+    }
+
+    #collapse1 ul {
+        padding-top: 18px;
+    }
+
+    .panel-group ul li {
+        padding: 0px 0px 16px 0px;
+    }
+    .plus-icon-wrapper {
+        display: inline-block;
+        /* font-size: 24px; */
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .intro-container .logo-title {
+        padding-left: 58px;
+        padding-top: 70px;
+        padding-bottom: 6px;
+    }
+    .plus-icon-wrapper {
+        display: none;
+    }
+
+    /* collapse */
+
+    .row.support-content {
+        display: flex;
+        /* width: auto; */
+    }
+    
+
+    /* .description-left {
+        position: relative;
+        width: auto;
+    } */
+    .separator {
+        border-bottom: 1.5px solid #133454;
+        margin: 60px 4% 10px 4%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .intro-container.support .description-right {
+        display: block;
+    }
+
+    .intro-container.support {
+        padding-top: 200px;
+    }
+
+    .description-right {
+        padding: 8px 4% 0px 1%;
+    }
+
+    .description-left {
+        padding: 0px 10px 0px 4%;
+    }
+
+    p.right-description {
+        line-height: 30px;
+    }
+
+    p.right-description {
+        padding-top: 16px;
+    }
+
+    .description-right ul li,
+    ul.right-list li {
+        padding-top: 6px;
+    }
+
+    .intro-container.support .description-left {
+        padding-right: 40px;
+    }
+
+    .panel-group ul li a {
+        /* font-size: 20px; */
+
+    }
+
+    #collapse1 ul {
+        padding-top: 18px;
+    }
+
+    .panel-group ul li {
+        padding: 0px 0px 16px 0px;
+    }
+}
+
+@media screen and (min-width: 1360px) {
+    h2.logo-title {
+        /* font-size: 28px; */
+    }
+
+    .intro-container.support {
+        padding-top: 210px;
+    }
+
+    h2.left-title-intro {
+        /* font-size: 36px; */
+    }
+
+    h3.left-description-intro {
+        /* font-size: 20px; */
+    padding-left: 12px;
+    padding-top: 40px;
+    line-height: 34px;
+    }
+
+    h3.right-title-intro {
+        /* font-size: 34px; */
+    }
+
+    ul.right-list-intro li a {
+        /* font-size: 20px; */
+    }
+
+    ul.right-list-intro {
+        padding-left: 16px;
+        padding-top: 10px;
+    }
+
+    h2.left-title {
+        /* font-size: 36px; */
+        /* text-align: center; */
+    }
+
+    h3.right-title {
+        /* font-size: 32px; */
+    }
+
+    p.right-description {
+        line-height: 32px;
+    }
+
+    p.right-description,
+    .description-right ul li,
+    ul.right-list li {
+        /* font-size: 20px; */
+        padding-top: 24px;
+    }
+
+    .description-right ul li,
+    ul.right-list li {
+        padding-top: 5px;
+    }
+
+    h4.right-subtitle {
+        /* font-size: 24px; */
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
+
+    .description-left {
+        padding: 0px 10px 0px 5%;
+    }
+
+    .separator {
+        border-bottom: 1.5px solid #133454;
+        margin: 72px 5% 10px 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .support-content .left-title {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .support-content {
+        padding-top: 40px;
+    }
+
+    .support-content .right-title {
+        padding-top: 16px;
+        padding-bottom: px;
+        font-family: Roboto bold;
+    }
+
+    .description-right {
+        padding: 0px 5% 0px 1%;
+    }
+
+    .panel-group ul li a {
+        /* font-size: 20px; */
+
+    }
+
+    #collapse1 ul {
+        padding-top: 18px;
+    }
+
+    .panel-group ul li {
+        padding: 0px 0px 16px 0px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    h2.logo-title {
+        /* font-size: 28px; */
+    }
+
+    .intro-container.support {
+        padding-top: 200px;
+    }
+
+    h2.left-title-intro {
+        /* font-size: 40px; */
+    }
+
+    h3.left-description-intro {
+        /* font-size: 20px; */
+        padding-left: 16px;
+        padding-top: 40px;
+        line-height: 34px;
+    }
+
+    h3.right-title-intro {
+        /* font-size: 36px; */
+    }
+
+    ul.right-list-intro {
+        padding-left: 0px;
+        padding-top: 10px;
+    }
+
+    ul.right-list-intro li a {
+        /* font-size: 20px; */
+    }
+
+    h2.left-title {
+        /* font-size: 40px; */
+    }
+
+    h3.right-title {
+        /* font-size: 36px; */
+    }
+
+    p.right-description {
+        line-height: 27px;
+    }
+
+    p.right-description {
+        /* font-size: 20px; */
+    padding-top: 24px;
+    }
+
+    p.right-description2 {
+        /* font-size: 20px; */
+    padding-top: 10px;
+    }
+
+    h4.right-subtitle {
+        /* font-size: 28px; */
+
+    }
+
+    ul.right-list li {
+        /* font-size: 25px; */
+    }
+
+    .description-left {
+        padding: 0px 10px 0px 4%;
+    }
+
+    .separator {
+        border-bottom: 0.5px solid #133454;
+        margin: 50px 5% 10px 4%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .support-content .left-title {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .support-content {
+        padding-top: 40px;
+    }
+
+    .support-content .right-title {
+        padding-top: 6px;
+        padding-bottom: 12px;
+        font-family: Roboto bold;
+    }
+
+    .description-right ul li {
+        /* font-size: 20px; */
+    }
+}
+
+@media screen and (min-width: 1920px) {
+    .support-content {
+        padding-top: 60px;
+    }
+
+    .intro-container.support {
+        padding-top: 200px;
+    }
+
+    h2.logo-title {
+        /* font-size: 32px; */
+    }
+
+    h2.left-title-intro {
+        /* font-size: 48px; */
+    }
+
+    h3.left-description-intro {
+        /* font-size: 20px; */
+        padding-left: 12px;
+        padding-top: 44px;
+        line-height: 38px;
+    }
+
+    h3.right-title-intro {
+        /* font-size: 40px; */
+    }
+
+    ul.right-list-intro {
+        padding-left: 20px;
+        padding-top: 10px;
+    }
+
+    ul.right-list-intro li a {
+        /* font-size: 20px; */
+    }
+
+    h2.left-title {
+        /* font-size: 48px; */
+    }
+
+    h3.right-title {
+        /* font-size: 42px; */
+    }
+
+    p.right-description {
+        /* font-size: 20px; */
+    }
+
+    h4.right-subtitle {
+        /* font-size: 28px; */
+    }
+
+    ul.right-list li {
+        /* font-size: 25px; */
+    }
+
+    .intro-container .title-wrapper {
+        text-align: center;
+        background: linear-gradient(180deg, rgba(33, 87, 121, 1) 57%, rgb(55, 162, 224) 96%,
+                /* rgb(98, 182, 231)*/
+                white 100%);
+    }
+
+    .container-fluid {
+        padding: 0pt;
+    }
+
+    .intro-container .logo-title {
+        padding-left: 64px;
+        padding-top: 70px;
+        padding-bottom: 0px;
+    }
+
+    .panel-group {
+        padding-left: 72px;
+    }
+
+    .intro-container.support .logo-title {
+        padding-bottom: 45px;
+        padding-left: 235px;
+        padding-top: 145px;
+
+    }
+
+    #collapse1 ul {
+        padding-top: 30px;
+    }
+
+    .panel-group ul li a {
+        /* font-size: 22px; */
+
+    }
+
+    .panel-group ul li {
+        padding-bottom: 18px;
+    }
+
+    .intro-container.support .description-wrapper #intro {
+        padding-left: 80px;
+        padding-top: 0px;
+    }
+
+    .intro-container.support .description-wrapper .left-description-intro {
+        padding-left: 120px;
+    }
+
+    .intro-container.support .description-wrapper .right-title-intro {
+        padding-bottom: 40px;
+    }
+
+    .separator {
+        border-bottom: 1.5px solid #133454;
+        margin: 80px 5% 10px 5%;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+    }
+
+    .support-content .left-title {
+        padding-left: 0px;
+        padding-top: 0px;
+    }
+
+    .support-content .right-title {
+        padding-top: 16px;
+        padding-bottom: 18px;
+        font-family: Roboto bold;
+    }
+
+    .support-content .right-description {
+        padding-top: 24px;
+    line-height: 38px;
+    }
+
+    .description-intro {
+        padding: 0px 0px 0px 0px;
+    }
+
+    .description-left {
+        padding: 0px 10px 0px 5%;
+    }
+
+    .description-right {
+        padding: 0px 5% 0px 10px;
+    }
+
+    p.right-description {
+        line-height: 44px;
+    }
+
+    .description-right ul li {
+        /* font-size: 20px; */
+    }
+
+
+
+    .right-subtitle {
+        padding-bottom: 10px;
+    }
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+ul.right-list {
+    list-style: none;
+    padding-left: 0px;
+}
+
+a.blue-no-line,
+a.blue-no-line:active :focus {
+    color: rgb(62, 170, 0);
+    text-decoration: none;
+
+}
+
+.right-list .no-padding-top .colored {
+    color: rgb(62, 170, 0);
+}
+
+li a {
+    color: rgb(62, 170, 0);
+}
+
+.intro-container .logo-title {
+    text-align: left;
+}
+
+.panel-group ul.list-group li a {
+    font-family: Roboto;
+    color: white;
+    text-transform: uppercase;
+}
+
+.panel-group .list-group-item,
+.panel-group .list-group {
+    border: none;
+    border-radius: 0px;
+    background-color: transparent;
+}
+
+.panel-group {
+    text-align: left;
+    width: 100%;
+}
+
+.logo-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 30px;
+}
+
+#collapse1 {
+    padding-top: 0px;
+}
+
+#arrow i {
+    transition: all 0.3s;
+}
+
+#arrow i.reverse {
+    transform: rotate(180deg);
+}
+
+.description-left .asd {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.ver-nota {
+    display: inline-block;
+    background-color: #BCDCF8;
+    border: 1px solid #8DC3F3;
+    border-radius: 1em;
+    color: #3C8CC4;
+    padding: 1em 1em;
+    /* font-size: 0.6em; */
+    line-height: 0px;
+}
+
+.nombre-carpeta {
+    text-decoration: underline;
+    font-size: 0.7em;
+    line-height: 0;
+    border: 1px solid;
+    border-radius: 0.2em;
+    padding: 1.6em 0.8em 0.8em 0.6em;
+}

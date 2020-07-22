@@ -1,0 +1,68 @@
+@media screen and (max-width: 750px) {
+    .seguridad .image-wrapper {
+        text-align: center;
+    }
+
+    .seguridad div.image-wrapper img {
+        margin-top: 8em;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+
+    p.flex-card-title {
+        margin: 0;
+        font-size: 1em;
+    }
+}
+
+.flex-card .flex-card-image-wrapper svg {
+    width: 100px;
+    margin-top: 20px;
+}
+
+.flex-card-title {
+    margin: 1em 0;
+    font-size: 1.3em;
+}
+
+.flex-card-image-wrapper img {
+    width: 4.5em;
+    height: 6.5em;
+    padding-top: 3em;
+}
+
+.flex-card {
+    margin-bottom: 20px;
+}
+
+.seguridad .image-wrapper {
+    text-align: center;
+    padding-top: 14rem;
+    margin: 0;
+}
+
+.seguridad .image-wrapper img {
+    width: 80%;
+}
+
+.flex-card .perk-icon-background {
+    fill: #D2E2F4;
+}
+
+.record-perk-image-wrapper {
+    width: 10%;
+}
+
+.record-perk:hover .perk-icon-background {
+    fill: #eab945;
+}
+
+p.flex-card-description {
+    font-size: 0.7em;
+}
+
+.description-wrapper {
+    margin-top: 8rem !important;
+}
